@@ -1,170 +1,488 @@
-<!--
-
-Resurrection Remix Website
-
-Copyright (C) 2014 Shubhang Rathore
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
--->
-
-
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class='no-js' lang='en'>
-	<!--<![endif]-->
-	<head>
-		<meta charset='utf-8' />
-		<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
-		<title>Resurrection Remix - Coming Soon</title>	
-		
-		<link rel="shortcut icon" href="favicon.ico" />
-		<link rel="apple-touch-icon" href="images/favicon.png" />
-		
-		<link rel="stylesheet" href="css/maximage.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" charset="utf-8" />
-		
-		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		
-		<!--[if IE 6]>
-			<style type="text/css" media="screen">
-				.gradient {display:none;}
-			</style>
-		<![endif]-->
-	</head>
-	<body>
-
-		<!-- Social Links -->
-		<nav class="social-nav">
-			<ul>
-				<li><a href="https://www.facebook.com/resurrectionremixrom" target="_blank"><img src="images/icon-facebook.png" /></a></li>
-				<li><a href="https://twitter.com/westcrip" target="_blank"><img src="images/icon-twitter.png" /></a></li>
-				<li><a href="https://plus.google.com/u/0/communities/109352646351468373340" target="_blank"><img src="images/icon-google.png" /></a></li>
-			</ul>
-		</nav>
-
-		<!-- Switch to full screen -->
-		<button class="full-screen" onclick="$(document).toggleFullScreen()"></button>
-
-		<!-- Site Logo -->
-		<div id="logo">resurrection<br>remix</div>
-
-		<!-- Main Navigation -->
-		<nav class="main-nav">
-			<ul>
-				<li><a href="#home" class="active">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#forum">Forum</a></li>
-			</ul>
-		</nav>
-
-		<!-- Slider Controls -->
-		<a href="" id="arrow_left"><img src="images/arrow-left.png" alt="Slide Left" /></a>
-		<a href="" id="arrow_right"><img src="images/arrow-right.png" alt="Slide Right" /></a>
-
-		<!-- Home Page -->
-		<section class="content show" id="home">
-			<h1>Welcome</h1>
-			<h5>Our new site is coming soon!</h5>
-			<p>We already have a great and independent forum, with an amazing user-base. <br>Thank you for all your love for Resurrection Remix &reg; ROM. <br>Our website will be open source and you can contribute to it! <br><br>Website is being designed by Shubhang Rathore (xenon92 @ XDA).</p>
-			<p><a href="https://plus.google.com/u/0/communities/109352646351468373340" target="_blank">Follow our updates on Google+</a></p>
-		</section>
-
-		<!-- About Page -->
-		<section class="content hide" id="about">
-			<h1>About</h1>
-			<h5>Here's a little about what we're up to.</h5>
-			<p>Resurrection Remix &reg; is one of the best custom ROMs available for many devices. It has everything - user-base, popularity, stability, customizations and an independent forum. <br>All it needed was a website! <br><br>Website's source will be available at Shubhang's Github (xenon92 @ XDA).</p>
-			<p><a href="https://github.com/xenon92" target ="_blank">Visit Shubhang's Github &#187;</a></p>
-		</section>
-
-		<!-- Forum Page -->
-		<section class="content hide" id="forum">
-			<h1>Forum</h1>
-			<h5>Everything is in its place!</h5>
-			<p>Missing the forum? <br>Don't worry, it is still there. <br>Forum will be accessible from the main website too once it is up and running.</p>
-				<p><a href="http://forum.resurrectionremix.com/" target="_blank">Visit the Forum</a></p>
-		</section>
-		
-		<!-- Background Slides -->
-		<div id="maximage">
-			<div>
-				<img src="images/backgrounds/bg-img-1.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-2.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-3.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-4.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-5.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-		</div>
-		
-		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
-		<script src="js/jquery.easing.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.fullscreen.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.ba-hashchange.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script type="text/javascript" charset="utf-8">
-			$(function(){
-				$('#maximage').maximage({
-					cycleOptions: {
-						fx: 'fade',
-						speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
-						timeout: 5000,
-						prev: '#arrow_left',
-						next: '#arrow_right',
-						pause: 0,
-						before: function(last,current){
-							if(!$.browser.msie){
-								// Start HTML5 video when you arrive
-								if($(current).find('video').length > 0) $(current).find('video')[0].play();
-							}
-						},
-						after: function(last,current){
-							if(!$.browser.msie){
-								// Pauses HTML5 video when you leave it
-								if($(last).find('video').length > 0) $(last).find('video')[0].pause();
-							}
-						}
-					},
-					onFirstImageLoaded: function(){
-						jQuery('#cycle-loader').hide();
-						jQuery('#maximage').fadeIn('fast');
-					}
-				});
+    <!DOCTYPE HTML>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Resurrection Remix - Android in all its Glory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel='stylesheet' id='prettyphoto-css'  href="css/prettyPhoto.css" type='text/css' media='all'>
+    <link href="css/fontello.css" type="text/css" rel="stylesheet">
+    <link href="css/fontello-custom_icons.css" type="text/css" rel="stylesheet">
+    <link href='css/nprogress.css' rel='stylesheet' />
 	
-				// Helper function to Fill and Center the HTML5 Video
-				jQuery('video,object').maximage('maxcover');
+    <!--[if lt IE 7]>
+            <link href="css/fontello-ie7.css" type="text/css" rel="stylesheet">  
+        <![endif]-->
+    <!-- Google Web fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+        padding-top: 35px; /* 60px to make the container go all the way to the bottom of the topbar */
+    }
+    </style>
+
 	
-			});
-		</script>
-  </body>
-</html>
+
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Load ScrollTo -->
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <!-- Load LocalScroll -->
+    <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <!-- prettyPhoto Initialization -->
+    <script type="text/javascript" charset="utf-8">
+          $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+          });
+    </script>
+    <!-- Load nprogress -->
+    <script src='js/nprogress.js'></script>
+
+    </head>
+
+    <body>
+
+    
+    <!-- TODO: Check and fix CSS indenting -->
+
+    <!--******************** NAVBAR ********************-->
+    <div class="navbar-wrapper">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+            <h1 class="brand"><a href="#top">resurrection remix</a></h1>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <nav class="pull-right nav-collapse collapse">
+              <ul id="menu-main" class="nav">
+                <li><a title="screenshots" href="#screenshots">Screenshots</a></li>
+                <li><a title="features" href="#features">Features</a></li>
+                <li><a title="news" href="#news">News</a></li>
+                <li><a title="team" href="#team">Team</a></li>
+                <li><a title="credits" href="#credits">Credits</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.navbar-inner -->
+      </div>
+      <!-- /.navbar -->
+    </div>
+    <!-- /.navbar-wrapper -->
+    <div id="top"></div>
+
+
+    <!-- ******************** HeaderWrap ********************-->
+    <div id="headerwrap">
+      <header class="clearfix">
+      	
+        <h1><img src="img/rr_logo_128x128.png" alt=""><br><span>resurrection</span><br>remix</h1>
+        <div class="container">
+          <div class="row">
+
+
+            <div class="span12">
+			
+            </div>
+          </div>
+          <div class="row">
+            <div class="span12">
+              <ul class="icon">
+<!--                <li><a href="#" target="_blank"><i class="icon-pinterest-circled"></i></a></li> -->
+                <li><a href="https://www.facebook.com/resurrectionremixrom" target="_blank"><i class="icon-facebook-circled"></i></a></li>
+                <li><a href="https://twitter.com/westcrip" target="_blank"><i class="icon-twitter-circled"></i></a></li>
+                <li><a href="https://plus.google.com/u/0/communities/109352646351468373340" target="_blank"><i class="icon-gplus-circled"></i></a></li>
+                <li><a href="https://github.com/ResurrectionRemix" target="_blank"><i class="icon-custom-github-circled-alt2"></i></a></li>
+<!--                <li><a href="#" target="_blank"><i class="icon-skype-circled"></i></a></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+
+    <!--******************** Feature ********************-->
+    <div class="scrollblock">
+      <section id="feature">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <article>
+                <p>We work to make your android experience elegant.</p>
+                <p>Handpicked features beautifully packed into one ROM.</p>
+              </article>
+            </div>
+            <!-- ./span12 -->
+          </div>
+          <!-- .row -->
+        </div>
+        <!-- ./container -->
+      </section>
+    </div>
+    <hr>
+    <!--******************** Screenshots Section ********************-->
+    <section id="screenshots" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-desktop-circled"></i></div>
+        <h1 id="folio-headline">Screenshots</h1>
+        <div class="row">
+          <div class="span4">
+            <div class="mask2"> <a href="img/screenshots/screenshot_01.png" rel="prettyPhoto"><img src="img/screenshots/screenshot_01.png" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2><center>Resurrection Tools</center></h2>
+              </hgroup>
+              <div class="entry-content">
+                <p><center>So much to customize! Don't get lost in the plethora of options.</center></p>
+                <!-- <a class="more-link" href="#">view project</a>  --> </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+          <div class="span4">
+            <div class="mask2"> <a href="img/screenshots/screenshot_02.png" rel="prettyPhoto"><img src="img/screenshots/screenshot_02.png" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2><center>Pitch Black<sup>&trade;</sup></center></h2>
+              </hgroup>
+              <div class="entry-content">
+                <p><center>Dark theme throughout the ROM supplemented with amazing animations.</center></p>
+                <!-- <a class="more-link" href="#">view project</a> --> </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+          <div class="span4">
+            <div class="mask2"> <a href="img/screenshots/screenshot_03.png" rel="prettyPhoto"><img src="img/screenshots/screenshot_03.png" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2><center>Checkit!</center></h2>
+              </hgroup>
+              <div class="entry-content">
+                <p><center>Quick access to features under one roof. Tick them away!</center></p>
+                <!-- <a class="more-link" href="#">view project</a> --> </div> 
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+        </div>
+        <!-- /.row -->
+        
+        <div class="row">
+          <div class="span4">
+            <div class="mask2"> <a href="img/screenshots/screenshot_04.png" rel="prettyPhoto"><img src="img/screenshots/screenshot_04.png" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2><center>Interface Customizations</center></h2>
+              </hgroup>
+              <div class="entry-content">
+                <p><center>Customize every visible elements in the ROM, from status bar to recent apps.</center></p>
+                <!-- <a class="more-link" href="#">view project</a> --> </div> 
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+          <div class="span4">
+            <div class="mask2"> <a href="img/screenshots/screenshot_05.png" rel="prettyPhoto"><img src="img/screenshots/screenshot_05.png" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2><center>Lock Screen Customizations</center></h2>
+              </hgroup>
+              <div class="entry-content">
+                <p><center>Features including Active Display and Lock Screen Notifications ease the use of your device even when it is locked.</center></p>
+                <!-- <a class="more-link" href="#">view project</a> --> </div> 
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+          <div class="span4">
+            <div class="mask2"> <a href="img/screenshots/screenshot_06.png" rel="prettyPhoto"><img src="img/screenshots/screenshot_06.png" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2><center>For Power Users</center></h2>
+              </hgroup>
+              <div class="entry-content">
+                <p><center>Includes features that will satisfy even the most advanced android users.</center></p>
+                <!-- <a class="more-link" href="#">view project</a> --> </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+        </div>
+        <!-- /.row -->
+        <a href="https://medium.com/p/97e515f027da" target="_blank" class="btn btn-large">More Screenshots</a> </div>
+      </div>
+      <!-- /.container -->
+
+    </section>
+    <hr>
+    <!--******************** Features Section ********************-->
+    <section id="features" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-cog-circled"></i></div>
+        <h1>Features</h1>
+        <!-- Four columns -->
+        <div class="row">
+          <div class="span3">
+            <div class="align"> <i class="icon-tools sev_icon"></i> </div>
+            <h2><center>Linaro</center></h2>
+            <p><center>Every build is compiled with Linaro Toolchain giving you a more stable, smoother, better and faster android experience.</center></p>
+          </div>
+          <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-cog sev_icon"></i> </div>
+            <h2><center>Android Kitkat</center></h2>
+            <p><center>Always get the latest of the android source updates from Google, CyanogenMod, Omni, Paranoid Android, AOKP and Slim ROMs.</center></p>
+          </div>
+          <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-mobile-1 sev_icon"></i> </div>
+            <h2>Devices</h2>
+            <p><center>Resurrection Remix ROM is available for various devices with an amazing support from fellow users and developers in forums.</center></p>
+          </div>
+          <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-chat sev_icon"></i> </div>
+            <h2><center>Community</center></h2>
+            <!-- TODO: Add links to the social network pages -->
+            <p><center>Be a part of Resurrection Remix community by liking our Facebook page, joining our Google+ community and following us on Twitter.</center></p>
+            </div>
+            <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-custom-android sev_icon"></i> </div>
+            <h2><center>Open Source</center></h2>
+            <!-- TODO: Edit color of features-link & make it bold in css -->
+            <p><center>Each and every part of Resurrection Remix ROM is <a href="https://github.com/ResurrectionRemix" target="_blank" class="features-link">open source</a>. Everyone can contribute towards its development. Fork us!</center></p>
+            </div>
+            <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-custom-download sev_icon"></i> </div>
+            <h2><center>OTA Updates</center></h2>
+            <p><center>Support to get notified Over-the-Air about new releases of Resurrection Remix ROM for your device is included in the source.</center></p>
+            </div>
+            <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-custom-battery sev_icon"></i> </div>
+            <h2><center>Battery Friendly</center></h2>
+            <p><center>Even with so many customizations and features available, the ROM is very battery-friendly. We avoid battery hogging features.</center></p>
+            </div>
+            <!-- /.span3 -->
+          <div class="span3">
+            <div class="align"> <i class="icon-custom-chart-pie sev_icon"></i> </div>
+            <h2><center>All-in-One</center></h2>
+            <p><center>Resurrection Remix ROM has a mix of features from many ROMs, including Paranoid Android, Omni, Slim and AOKP.</center></p>
+            </div>
+          </div>
+          <!-- /.span3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <hr>
+    <!--******************** Testimonials Section ********************-->
+    <section id="testimonials" class="single-page scrollblock">
+      <div class="container">
+        <div class="row">
+          <div class="blockquote-wrapper">
+            <blockquote class="mega">
+              <div class="span4">
+                <p class="cite">Every new user's testimonial:</p>
+              </div>
+              <div class="span8">
+                <p class="alignright">"Resurrection Remix is one of the best custom ROMs I have ever used."</p>
+              </div>
+            </blockquote>
+          </div>
+          <!-- /.blockquote-wrapper -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <hr>
+    <!--******************** News Section ********************-->
+    <section id="news" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-pencil-circled"></i></div>
+        <h1>News</h1>
+        <!-- Three columns -->
+        <div class="row">
+          <article class="span4 post"> <img class="img-news" src="img/blog_img-01.jpg" alt="">
+            <div class="inside">
+              <p class="post-date"><i class="icon-calendar"></i></p>
+              <h2>Changelog</h2>
+              <div class="entry-content">
+                <p>List of features and bugfixes in the official releases&hellip;</p>
+                <a href="https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/kitkat1/CHANGELOG.mkdn" target="_blank"class="more-link">read more</a> </div>
+            </div>
+            <!-- /.inside -->
+          </article>
+          <!-- /.span4 -->
+          <article class="span4 post"> <img class="img-news" src="img/blog_img-02.jpg" alt="">
+            <div class="inside">
+              <p class="post-date"></p>
+              <h2>List of Devices</h2>
+              <div class="entry-content">
+                <p>Check if Resurrection Remix is available for your device&hellip;</p>
+                <a href="https://medium.com/p/27f16918b81e" target="_blank" class="more-link">read more</a> </div>
+            </div>
+            <!-- /.inside -->
+          </article>
+          <!-- /.span4 -->
+          <article class="span4 post"> <img class="img-news" src="img/blog_img-03.jpg" alt="">
+            <div class="inside">
+              <p class="post-date"></p>
+              <h2>Downloads</h2>
+              <div class="entry-content">
+                <p>Get the latest releases for officially supported devices&hellip;</p>
+                <a href="http://forum.resurrectionremix.com/index.php?PHPSESSID=prtsikt0k4ejnvk508afaejra2&topic=2037.new#new" target="_blank" class="more-link">read more</a> </div>
+            </div>
+            <!-- /.inside -->
+          </article>
+
+          <!-- /.span4 -->
+        </div>
+        <!-- /.row -->
+        <a href="https://medium.com/p/11526572975d" target="_blank" class="btn btn-large">Announcements</a> </div>
+        <a href="http://forum.resurrectionremix.com/" target="_blank" class="btn btn-large">Visit our forum</a> </div>
+        
+      <!-- /.container -->
+    </section>
+    <hr>
+    <!--******************** Team Section ********************-->
+    <section id="team" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-group-circled"></i></div>
+        <h1>Meet the team</h1>
+        <!-- Five columns -->
+        <div class="row">
+          <div class="span12">
+            <div class="align"> <img class="team-thumb img-circle" src="img/portrait-1.jpg" alt=""> </div>
+            <h3>Shubhang (xenon92)</h3>
+            <div class="job-position">Website Designer, Developer and Maintainer</div>            
+          </div>
+          <!-- ./span2 -->
+          <div class="span12">
+            <div class="align"> <img class="team-thumb img-circle" src="img/portrait-2.png" alt=""> </div>
+            <h3>Altan (westcrip)</h3>
+            <div class="job-position">Founder, Developer and Maintainer</div>            
+          </div>
+
+          <!-- ./span2 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+          <div class="span10 offset1">
+            <hr class="featurette-divider">
+            <div class="featurette">
+            
+            <!-- TODO: add links to images showing the view count of S2 thread. Make the links color yellow through css -->
+
+              <h2 class="featurette-heading">Want to know more? <span class="muted">| a brief history</span></h2>
+              <p>Altan started the Resurrection Remix ROM project in 2012 with android 4.0.x Ice Cream Sandwich. It soon became the most popular ROM with its original Samsung Galaxy S2 thread being the most viewed thread on XDA-developers for many months. He continued the development of the ROM till android 4.2.2 Jelly Bean.</p>
+              <p>After a long break, Altan came back to development and started his work on Resurrection Remix with android 4.4.x Kitkat. In the initial stages of the newly based ROM, Shubhang joined Altan. He brought new ideas to the table, with an aim to perfect the ROM in every way. He gave a face-lift to the ROM, initiated a dedicated website, improved upon things and together with Altan, both are working their ass off, making Resurrection Remix one of the best custom android ROM experience you'll ever have.</p>
+            </div>
+            <!-- /.featurette -->
+            <hr class="featurette-divider">
+          </div>
+          <!-- .span10 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!--******************** credits Section ********************-->
+    <section id="credits" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-custom-thumbs-up"></i></div>
+        <h1>Credits</h1>
+        <div class="row">
+        <div class="span10 offset1">
+            <hr class="featurette-divider">
+            <div class="featurette">
+              <h2 class="featurette-heading">Resurrection Remix team would like to thank all of its users, maintainers, contributors, fans and its community for their suggestions and love that keeps us motivated.<span class="muted"><br><br>We would also like to thank the following people for their vital contributions to Resurrection Remix.</span></h2><br>
+				
+			
+
+              <p style="font-size:18px;">
+
+              <br><b>David Smith a.k.a. PureLoneWolf @ XDA</b> - For setting up an independent forum and a custom domain.
+              <br><b>cyberboob @ XDA</b> - For signatures and images
+              <br><b>BigDenn @ XDA</b> - For bootanimations
+              <br><b>therichieboy</b> - For bootanimations
+
+              </p>
+
+              <p style="font-size:18px;"><br>
+              Resurrection Remix team is thankful to all the developers who contribute to custom ROMs. A special thanks to CyanogenMod and its contributors for providing a base for Resurrection Remix as well as to other custom ROMs such as Omni, PA, Slim and AOKP to name a few.
+              </p>
+
+              <p style="font-size:12px;"><br>
+              <br><br>This website has been designed by Shubhang Rathore.
+              <br>Website has been made open source, available at <a href="https://github.com/xenon92/resurrectionremix-website" target="_blank" class="github-source-link">Shubhang's Github</a>
+              </p>
+
+            </div>
+            <!-- /.featurette -->
+            <hr class="featurette-divider">
+          </div>
+          <!-- .span10 -->
+        </div>
+
+
+          </div>
+          <!-- ./span12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <hr>
+    <div class="footer-wrapper">
+      <div class="container">
+        <footer>
+        <!-- TODO: GPL License -->
+          <small>&copy; Shubhang Rathore - 2014</small>
+        </footer>
+      </div>
+      <!-- ./container -->
+    </div>
+    
+    
+
+    
+
+
+    <!-- Loading the javaScript at the end of the page -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+    
+
+    <!-- nprogress Initialization-->
+    <script>
+    	NProgress.start();
+    	setTimeout(function() { NProgress.set(0.45); $('.fade').removeClass('out'); }, 1500);
+    	setTimeout(function() { NProgress.set(0.80); $('.fade').removeClass('out'); }, 2200);
+    	setTimeout(function() { NProgress.done(); $('.fade').removeClass('out'); }, 3000);
+    </script>
+
+    </body>
+    </html>
