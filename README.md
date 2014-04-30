@@ -8,6 +8,7 @@ The website can be accessed through the following URLs:
 
 
 ####Resources
+> - [Bootstrap](https://github.com/twbs)
 > - [NProgress](https://github.com/rstacruz/nprogress)
 > - [Fontello](https://github.com/fontello/fontello)
 
