@@ -527,11 +527,11 @@ blockquote.mega .cite {
 	text-align: left;
 	font-weight:300;
 }
-/* News */
-section#news {
+/* Downloads */
+section#downloads {
 	background: url("../img/grey-cardboard-bg.png") repeat 0 0;
 }
-section#news .align {
+section#downloads .align {
 	font-size: 6em;
 	margin-top:10px;
 	text-align: center;
@@ -560,12 +560,12 @@ article .inside {
 	line-height: 2;
 	margin-right: 5px;
 }
-#news h1 {
+#downloads h1 {
 	font-size: 3em;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
 }
-#news h2 {
+#downloads h2 {
 	font-size: 21px;
 	margin-top: 24px;
 	margin-bottom: 16px;
@@ -997,12 +997,12 @@ footer p {
 /*	display: none; */
 		}
 		
-/* Screenshots & News */
+/* Screenshots & Downloads */
 		
-#news h1 {
+#downloads h1 {
  background: transparent;
 }
- #news h1 span {
+ #downloads h1 span {
  background: transparent;
  padding: 0;
 }
@@ -1016,10 +1016,10 @@ footer p {
  line-height: 30px;
  color: #fff;
 }
- .img-news {
+ .img-downloads {
  width: 100%;
 }
- .img-news {
+ .img-downloads {
  margin-right: auto;
  margin-left: auto;
  display: block;
