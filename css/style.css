@@ -497,8 +497,8 @@ section#features .span3:hover {
 /* Testimonials */
 
 section#testimonials {
-	height:  647px;
-	background: url("../img/yellow_testimonial.png") repeat-x 0 0;
+	height:  406px;
+	background: #f0bf00;
 	padding: 0;
 	color: #e4e5e2;
 	z-index: 500;
@@ -509,7 +509,7 @@ section#testimonials {
 section#testimonials .blockquote-wrapper {
 	display: table-cell;
 	vertical-align: middle;
-	height:  647px;
+	height:  406px;
 }
 blockquote.mega {
 }
