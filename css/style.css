@@ -230,14 +230,21 @@ em {
 	font-weight: normal;
 	font-style: italic;
 	font-family: 'Patua One', cursive;
+	transition: color .15s linear;
+    -webkit-transition:  color .15s linear;
+    -moz-transition:  color .15s linear;
+    -o-transition:  color .15s linear;
+    -ms-transition:  color .15s linear;
 
 }
 .navbar .brand a:hover {
 	text-decoration: none;
 	color:#f0bf00;
- transition: color .15s linear;
- -webkit-transition: color .15s linear;
- -moz-transition: color .15s linear;
+ 	transition: color .15s linear;
+    -webkit-transition:  color .15s linear;
+    -moz-transition:  color .15s linear;
+    -o-transition:  color .15s linear;
+    -ms-transition:  color .15s linear;
 }
 .navbar .brand a:focus {
 	outline: none;
@@ -264,11 +271,19 @@ ul#menu-main > li > a {
 	font-weight: normal;
 	font-size: 1em;
 	color: #fff;
-		transition: all 0.3s ease 0s; 
+	transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
 }
 ul#menu-main > li > a:hover {
 	background: #f0bf00;
 	transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -444,6 +459,7 @@ section#screenshots .align {
 	-webkit-transition: opacity 0.3s linear;
     -moz-transition: opacity 0.3s linear;
     -o-transition: opacity 0.3s linear;
+	-ms-transition: opacity 0.3s linear;
     transition: opacity 0.3s linear;
 }
 
