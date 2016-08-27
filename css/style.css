@@ -821,7 +821,11 @@ footer p {
 	border: 0;
 	text-transform: none;
 	background: #f0bf00 !important;
-	transition: all 0.3s ease 0s; 
+	transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -834,7 +838,11 @@ footer p {
 }
 .btn:hover {
 	background: #312A1E !important;
-	transition: all 0.3s ease 0s; 
+	transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
 }
 .navbar-inverse .btn-navbar {
 	width: auto;
