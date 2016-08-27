@@ -230,6 +230,7 @@ em {
 	font-weight: normal;
 	font-style: italic;
 	font-family: 'Patua One', cursive;
+
 }
 .navbar .brand a:hover {
 	text-decoration: none;
@@ -432,23 +433,21 @@ section#screenshots .align {
 	font-size:6em;
 }
 /* Screenshots Image Hover */
-.mask2 img {
+
+.fade 
+{
 	margin: 0 auto;
 	max-width: 100%;
-	display: block;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-	filter: alpha(opacity=80);
-	opacity: 0.8;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    opacity:0.8;
+	-webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
 }
-.mask2 img:hover {
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
-	filter: alpha(opacity=99);
-	opacity: 1;
+
+.fade:hover
+{
+        opacity:1;
 }
 /* Features */
 
