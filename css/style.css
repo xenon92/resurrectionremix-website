@@ -565,7 +565,6 @@ article .inside {
 	margin: 18px 24px 24px;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	background: url("../img/dot-row-2.png") repeat-x scroll 0 0 transparent !important;
 }
 .post-date {
 	color: #A5A5A2;
@@ -734,7 +733,6 @@ hr.featurette-divider {
 	margin: 3em 0;
 	border-width: 0;
 	height: 9px;
-	background: url("../img/dot-row-3-lt.png") repeat-x;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 06 Footer ------------------------------------------------------------
