@@ -230,16 +230,25 @@ em {
 	font-weight: normal;
 	font-style: italic;
 	font-family: 'Patua One', cursive;
+	transition: color .15s linear;
+    -webkit-transition:  color .15s linear;
+    -moz-transition:  color .15s linear;
+    -o-transition:  color .15s linear;
+    -ms-transition:  color .15s linear;
+
 }
 .navbar .brand a:hover {
 	text-decoration: none;
 	color:#f0bf00;
- transition: color .15s linear;
- -webkit-transition: color .15s linear;
- -moz-transition: color .15s linear;
+ 	transition: color .15s linear;
+    -webkit-transition:  color .15s linear;
+    -moz-transition:  color .15s linear;
+    -o-transition:  color .15s linear;
+    -ms-transition:  color .15s linear;
 }
 .navbar .brand a:focus {
 	outline: none;
+	text-decoration: none;
 }
 .navbar-inner {
 	min-height: 4.75em;
@@ -262,10 +271,19 @@ ul#menu-main > li > a {
 	font-weight: normal;
 	font-size: 1em;
 	color: #fff;
+	transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
 }
 ul#menu-main > li > a:hover {
 	background: #f0bf00;
-	padding: 9px 15px;
+	transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -432,23 +450,22 @@ section#screenshots .align {
 	font-size:6em;
 }
 /* Screenshots Image Hover */
-.mask2 img {
+
+.fade 
+{
 	margin: 0 auto;
 	max-width: 100%;
-	display: block;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-	filter: alpha(opacity=80);
-	opacity: 0.8;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    opacity:0.8;
+	-webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+	-ms-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
 }
-.mask2 img:hover {
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
-	filter: alpha(opacity=99);
-	opacity: 1;
+
+.fade:hover
+{
+        opacity:1;
 }
 /* Features */
 
@@ -497,8 +514,8 @@ section#features .span3:hover {
 /* Testimonials */
 
 section#testimonials {
-	height:  647px;
-	background: url("../img/yellow_testimonial.png") repeat-x 0 0;
+	height:  406px;
+	background: #f0bf00;
 	padding: 0;
 	color: #e4e5e2;
 	z-index: 500;
@@ -509,7 +526,7 @@ section#testimonials {
 section#testimonials .blockquote-wrapper {
 	display: table-cell;
 	vertical-align: middle;
-	height:  647px;
+	height:  406px;
 }
 blockquote.mega {
 }
@@ -519,7 +536,7 @@ blockquote.mega p {
 	text-align: left;
 	font-family: 'Patua One', cursive;
 	
-	color:#312A1E;
+	color:#ffffff;
 }
 blockquote.mega .cite {
 	font-size: 22px;
@@ -548,7 +565,6 @@ article .inside {
 	margin: 18px 24px 24px;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	background: url("../img/dot-row-2.png") repeat-x scroll 0 0 transparent !important;
 }
 .post-date {
 	color: #A5A5A2;
@@ -717,7 +733,6 @@ hr.featurette-divider {
 	margin: 3em 0;
 	border-width: 0;
 	height: 9px;
-	background: url("../img/dot-row-3-lt.png") repeat-x;
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 06 Footer ------------------------------------------------------------
@@ -728,7 +743,7 @@ hr.featurette-divider {
 }
 footer {
 	text-align: center;
-	color: #1a1a1a;
+	color: #e4e5e2;
 	font-weight: bold;
 }
 footer p {
@@ -821,6 +836,11 @@ footer p {
 	border: 0;
 	text-transform: none;
 	background: #f0bf00 !important;
+	transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -833,6 +853,11 @@ footer p {
 }
 .btn:hover {
 	background: #312A1E !important;
+	transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
 }
 .navbar-inverse .btn-navbar {
 	width: auto;
