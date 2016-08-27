@@ -241,6 +241,7 @@ em {
 }
 .navbar .brand a:focus {
 	outline: none;
+	text-decoration: none;
 }
 .navbar-inner {
 	min-height: 4.75em;
@@ -728,7 +729,7 @@ hr.featurette-divider {
 }
 footer {
 	text-align: center;
-	color: #1a1a1a;
+	color: #e4e5e2;
 	font-weight: bold;
 }
 footer p {
