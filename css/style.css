@@ -583,6 +583,7 @@ blockquote.mega p {
     src: url('../font/Roboto-Condensed.ttf') @ttf;*/
 		font-family: 'Source Code Pro', monospace;
 
+	color:#FFFFFF;
 }
 blockquote.mega .cite {
 	font-size: 22px;
