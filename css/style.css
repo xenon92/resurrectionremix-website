@@ -53,7 +53,7 @@ div, article, section, header, footer, nav, li {
 }
 body {
 	background:#f0f0f0;
-	color: #434343;
+	color: #010101;
 	font-size: 100%;
     /*font-family: 'Roboto Condensed';
     src: url('../font/Roboto-Condensed.ttf') @ttf;*/
@@ -61,7 +61,7 @@ body {
 
 }
 ::-moz-selection {
-background:#434343;
+background:#010101;
 color:#333;
 }
 ::selection {
