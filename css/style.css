@@ -33,11 +33,11 @@ CONTENTS:
 06 Footer
 07 Bootstrap Carousel
 08 Buttons
-09 Media queries 
+09 Media queries
 ===========================
 */
 
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 01 Sensible defaults ----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
@@ -55,8 +55,8 @@ body {
 	background:#f0f0f0;
 	color: #010101;
 	font-size: 100%;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
@@ -80,12 +80,12 @@ input[type=text], input[type=submit], textarea {
 	-webkit-box-sizing: border-box;
 }
 input, button, select, textarea {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 02 Typography -----------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 /*
@@ -122,8 +122,8 @@ a:hover, a:active {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal; /* reset default browser weight for our webfonts */
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
@@ -159,8 +159,8 @@ h5 {
 }
 strong {
 	font-weight:normal;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
@@ -172,15 +172,15 @@ small {
 }
 em {
 	font-style: normal;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
 .muted {
 	color: #A5A5A2;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
@@ -191,8 +191,8 @@ em {
 .more-link {
 	font-size: .875em; /* 14px */
 	margin-top: 1.5em;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
@@ -206,7 +206,7 @@ em {
 .features-link:link, .features-link:visited {
 	color: #ff0055;
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 03 Non-semantic ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 /* New Image Replacement Hack */
@@ -228,12 +228,12 @@ em {
 }
 .medium {
 	font-weight: normal;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 04 Navbar ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
@@ -252,8 +252,8 @@ em {
 	font-size: 1.35em;
 	margin-left: 0;
 	font-weight: normal;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
@@ -284,8 +284,8 @@ em {
 	margin-top: 1.125em;
 }
 ul#menu-main > li > a {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	font-size: 1em;
@@ -301,7 +301,7 @@ ul#menu-main > li > a:hover {
 .navbar-inverse .brand, .navbar-inverse .nav > li > a {
 	text-shadow: none;
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 05 Single-Page Sections ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 #headerwrap {
@@ -311,7 +311,7 @@ ul#menu-main > li > a:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+
 	min-height: 600px;
 	margin-top: -60px;
 	padding-top:160px;
@@ -319,8 +319,8 @@ ul#menu-main > li > a:hover {
 }
 #headerwrap h1 {
 	color: #FFFFFF;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	font-size: 5em;
@@ -329,8 +329,8 @@ ul#menu-main > li > a:hover {
 }
 #headerwrap h2 {
 	color: #FFFFFF;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	font-size: 2em;
@@ -341,15 +341,15 @@ ul#menu-main > li > a:hover {
 #headerwrap h1 span {
 	color:#ffffff;
 	font-style: bold;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 }
 #headerwrap input[type=text] {
 	background: rgba(227, 231, 228, 1);
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	font-size: 1.3125em;
@@ -370,8 +370,8 @@ ul#menu-main > li > a:hover {
 	width:50%;
 }
 #headerwrap input[type=submit] {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	color: #fff;
@@ -411,8 +411,8 @@ section.single-page {
 }
 section.single-page h1 {
 	text-align: center;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	margin-bottom: 2em; /* 72px */
@@ -432,8 +432,8 @@ section.single-page h1 {
 	max-width: 1170px;
 }
 #feature-headline {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
     font-weight: bold;
@@ -445,15 +445,15 @@ section.single-page h1 {
 	background-size: 100% auto;
 }
 #feature-headline span {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	text-transform: lowercase;
 }
 #feature article p {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	font-size: 40px;
@@ -479,10 +479,7 @@ section#screenshots hgroup h2 {
 }
 section#screenshots hgroup h3 {
 	margin-top:  .35em;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
-		font-family: 'Roboto mono', monospace;
-
+	font-family: 'Roboto mono', monospace;
 }
 section#screenshots .entry-content {
 	margin: 1em 0 5.5em;
@@ -560,7 +557,6 @@ section#features .span3:hover {
 
 section#testimonials {
 	height:  647px;
-	/*background: url("../img/yellow_testimonial.png") repeat-x 0 0;*/
 	background-color: #CF2C2C;
 	padding: 0;
 	color: #fff;
@@ -580,10 +576,7 @@ blockquote.mega p {
 	font-size: 45px;
 	line-height: 50px;
 	text-align: left;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
-		font-family: 'Roboto mono', monospace;
-
+	font-family: 'Roboto mono', monospace;
 	color:#FFFFFF;
 }
 blockquote.mega .cite {
@@ -623,8 +616,8 @@ article .inside {
 .post-date {
 	color: #A5A5A2;
 	float: right;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	font-size: 14px;
@@ -695,8 +688,8 @@ section#team .align, section#credits .align {
 	text-align:center;
 }
 .job-position {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	margin-bottom: .46155em;
@@ -717,8 +710,8 @@ section#credits h2.featurette-heading {
 }
 #theme-form input[type=text], .cform-form textarea {
 	background: rgba(227, 231, 228, 1);
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	border: 0;
@@ -739,8 +732,8 @@ section#credits h2.featurette-heading {
 	height: 3.25em;
 }
 #theme-form input[type=submit] {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	color: #fff;
@@ -784,8 +777,8 @@ div.cform-response-output {
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	box-sizing: border-box;
@@ -805,7 +798,7 @@ hr.featurette-divider {
 	height: 9px;
 	background: url("../img/dot-row-3-lt.png") repeat-x;
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 06 Footer ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
@@ -820,10 +813,10 @@ footer {
 footer p {
 	margin-top: -130px;
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 07 Bootstrap Carousel ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
-    
+
     .carousel-caption {
 	background-color: transparent;
 	position: static;
@@ -849,8 +842,8 @@ footer p {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 	background-color: transparent;
 	border: 0;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	opacity: 0.4;
@@ -859,7 +852,7 @@ footer p {
 .carousel-control:link, .carousel-control:visited {
 	color: #262626;
 }
-/* Banner Carousel  */    
+/* Banner Carousel  */
     #banner.carousel {
 	margin-top: 4.75em;
 	margin-bottom: 0;
@@ -875,8 +868,8 @@ footer p {
 }
 #intro-caption {
 	margin-top:150px;
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	text-align: center;
@@ -887,8 +880,8 @@ footer p {
 	text-shadow: 2px 2px 2px #000;
 }
 #intro-caption span {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	font-size: 0.65em;
@@ -899,12 +892,12 @@ footer p {
 }
 #banner.carousel .carousel-control {
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 08 Buttons ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */    
+---------------------------------------------------------------------------------------------------------- */
 .btn {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
 	color: #fff;
@@ -937,12 +930,12 @@ footer p {
 	height: auto;
 }
 
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 09 Media queries --------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
 
-/* RESPONSIVE 
+/* RESPONSIVE
 -------------------------------------------------- */
 
     @media (max-width: 1186px) {
@@ -954,8 +947,8 @@ footer p {
  color: #007ac3;
 }
  #intro-caption {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
  text-align: center;
@@ -1037,7 +1030,7 @@ footer p {
  line-height: 1.5;
 }
 }
-    
+
     /* Smaller screens ----------- */
 	@media (max-width : 480px) {
  #headerwrap {
@@ -1067,8 +1060,8 @@ footer p {
  text-align:center
 }
  #feature article p {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
  font-size: 26px; /* font-size: 26px; */
@@ -1095,14 +1088,14 @@ footer p {
  section.single-page {
  padding: 1em 0;
 }
-		
+
 		/* Feature */
 		#feature-badge {
 /*	display: none; */
 		}
-		
+
 /* Screenshots & Downloads */
-		
+
 #downloads h1 {
  background: transparent;
 }
@@ -1114,8 +1107,8 @@ footer p {
  top: 0 !important;
 }
  #feature article p {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
  font-size: 26px; /* font-size: 26px; */
@@ -1135,9 +1128,9 @@ footer p {
  section#screenshots hgroup h2 {
  margin-top: 1.5em;
 }
-	
+
 /* Features */
-		
+
 #features h1 {
  background: transparent;
 }
@@ -1151,15 +1144,15 @@ footer p {
  section#features h2, section#features ul {
  text-align: center;
 }
-		
+
 
 	    /* Testimonials */
-	    
+
 		section#testimonials { /*display: none;*/
 }
-	
+
 		/* team */
-		
+
 		#team .team-thumb {
  margin-right: auto;
  margin-left: auto;
@@ -1174,7 +1167,7 @@ footer p {
  margin-left: auto;
  margin-right: auto;
 }
-		
+
 /* Credits Section */
 
 #theme-form {
@@ -1191,15 +1184,15 @@ footer p {
  font-size: 32px; /* 34px */
 }
 }
-	
+
 	/* Smartphones (portrait) ----------- */
 	@media only screen  and (max-width : 320px) {
  #feature-headline {
  font-size: 1.1875em; /* 19px */
 }
  #feature article p {
-    /*font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+
+
 		font-family: 'Roboto mono', monospace;
 
  font-size: 26px; /* font-size: 26px; */
@@ -1209,7 +1202,7 @@ footer p {
  color: #fff;
 }
 }
-	
+
 	/* iPads (portrait and landscape) ----------- */
 	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px) {
  .banner-caption p {
@@ -1219,17 +1212,17 @@ footer p {
  font-size: 4em;
 }
 }
-	
+
 	/* iPads (landscape) ----------- */
 	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : landscape) {
 /* Styles */
 	}
-	
+
 	/* iPads (portrait) ----------- */
 	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : portrait) {
 /* Styles */
 	}
-	
+
 	/* Desktops and laptops ----------- */
 	@media only screen  and (min-width : 1224px) {
 /* Styles */
