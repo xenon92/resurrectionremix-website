@@ -474,6 +474,7 @@ section#screenshots h1 {
 section#screenshots hgroup h2 {
 	margin-top: 1em;
 	text-transform: capitalize;
+	text-align: center;
 }
 section#screenshots hgroup h3 {
 	margin-top:  .35em;
