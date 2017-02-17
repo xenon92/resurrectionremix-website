@@ -271,7 +271,7 @@ em {
 }
 .navbar-inverse .navbar-inner {
 	background-repeat: repeat;
-	background-color: #212121;
+	background-color: #010101;
 	/* 0b333f */
 	border-color: #CF2C2C;
 }
@@ -552,7 +552,7 @@ section#features .span3 {
 }
 section#features .span3:hover {
 	color: #e9e9e9;
-	background:#212121;
+	background:#010101;
 	box-shadow: 1px 1px 6px #C1BAC1;
 }
 /* Testimonials */
@@ -635,14 +635,14 @@ article .inside {
 	font-size: 21px;
 	margin-top: 24px;
 	margin-bottom: 16px;
-	color: #212121;
+	color: #010101;
 	clear: right;
 }
 /* Team and Credits */
 
 section#team, section#credits {
 	color: #e4e5e2;
-	background:#212121;
+	background:#010101;
 }
 section#team .align, section#credits .align {
 	font-size: 6em;
@@ -923,7 +923,7 @@ footer p {
 	color: #fff;
 }
 .btn:hover {
-	background: #212121 !important;
+	background: #010101 !important;
 }
 .navbar-inverse .btn-navbar {
 	width: auto;
