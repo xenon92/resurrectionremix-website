@@ -55,8 +55,10 @@ body {
 	background:#f0f0f0;
 	color: #434343;
 	font-size: 100%;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 ::-moz-selection {
 background:#434343;
@@ -78,8 +80,10 @@ input[type=text], input[type=submit], textarea {
 	-webkit-box-sizing: border-box;
 }
 input, button, select, textarea {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 /* ---------------------------------------------------------------------------------------------------------- 
 02 Typography -----------------------------------------------------------------------------------------------
@@ -118,8 +122,10 @@ a:hover, a:active {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal; /* reset default browser weight for our webfonts */
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 h1 {
 	font-size: 1.5em; /* 24px */
@@ -153,8 +159,10 @@ h5 {
 }
 strong {
 	font-weight:normal;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 small {
 	font-size: 0.75em; /* 12px */
@@ -164,13 +172,17 @@ small {
 }
 em {
 	font-style: normal;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 .muted {
 	color: #A5A5A2;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 .impressed {
 	text-shadow:
@@ -179,8 +191,10 @@ em {
 .more-link {
 	font-size: .875em; /* 14px */
 	margin-top: 1.5em;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 .more-link:link, .more-link:visited {
 	color: #a10707;
@@ -236,8 +250,10 @@ em {
 	font-size: 1.35em;
 	margin-left: 0;
 	font-weight: normal;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 .navbar .brand a:hover {
 	text-decoration: none;
@@ -266,8 +282,10 @@ em {
 	margin-top: 1.125em;
 }
 ul#menu-main > li > a {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	font-size: 1em;
 	color: #fff;
 }
@@ -299,16 +317,20 @@ ul#menu-main > li > a:hover {
 }
 #headerwrap h1 {
 	color: #FFFFFF;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	font-size: 5em;
 	font-weight: 400;
 	margin: 1em 0;
 }
 #headerwrap h2 {
 	color: #FFFFFF;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0.5em 0;
@@ -317,13 +339,17 @@ ul#menu-main > li > a:hover {
 #headerwrap h1 span {
 	color:#ffffff;
 	font-style: bold;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 #headerwrap input[type=text] {
 	background: rgba(227, 231, 228, 1);
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	font-size: 1.3125em;
 	border: 0;
 	text-align: center;
@@ -342,8 +368,10 @@ ul#menu-main > li > a:hover {
 	width:50%;
 }
 #headerwrap input[type=submit] {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	color: #fff;
 	width: 185px;
 	height: 2.9em;
@@ -381,8 +409,10 @@ section.single-page {
 }
 section.single-page h1 {
 	text-align: center;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	margin-bottom: 2em; /* 72px */
 	font-size: 2.25em; /* 36px */
 }
@@ -400,8 +430,10 @@ section.single-page h1 {
 	max-width: 1170px;
 }
 #feature-headline {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
     font-weight: bold;
 	text-transform: uppercase;
 	color: rgba(228, 229, 229, 1);
@@ -411,13 +443,17 @@ section.single-page h1 {
 	background-size: 100% auto;
 }
 #feature-headline span {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	text-transform: lowercase;
 }
 #feature article p {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	font-size: 40px;
 	font-weight: bold;
 	margin-bottom: 0;
@@ -440,8 +476,10 @@ section#screenshots hgroup h2 {
 }
 section#screenshots hgroup h3 {
 	margin-top:  .35em;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 section#screenshots .entry-content {
 	margin: 1em 0 5.5em;
@@ -538,9 +576,10 @@ blockquote.mega p {
 	font-size: 45px;
 	line-height: 50px;
 	text-align: left;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
-	color:#090909;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 }
 blockquote.mega .cite {
 	font-size: 22px;
@@ -574,8 +613,10 @@ article .inside {
 .post-date {
 	color: #A5A5A2;
 	float: right;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	font-size: 14px;
 	font-style: normal;
 	line-height: 2;
@@ -643,8 +684,10 @@ section#team .align, section#credits .align {
 	text-align:center;
 }
 .job-position {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	margin-bottom: .46155em;
 }
 /* Credits Form */
@@ -663,8 +706,10 @@ section#credits h2.featurette-heading {
 }
 #theme-form input[type=text], .cform-form textarea {
 	background: rgba(227, 231, 228, 1);
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	border: 0;
 	text-align: left;
 	vertical-align: middle;
@@ -683,8 +728,10 @@ section#credits h2.featurette-heading {
 	height: 3.25em;
 }
 #theme-form input[type=submit] {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	color: #fff;
 	width: 185px;
 	height: 60px;
@@ -726,8 +773,10 @@ div.cform-response-output {
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -789,8 +838,10 @@ footer p {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 	background-color: transparent;
 	border: 0;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	opacity: 0.4;
 	border-radius: 0;
 }
@@ -813,8 +864,10 @@ footer p {
 }
 #intro-caption {
 	margin-top:150px;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	text-align: center;
 	font-size: 80px;
 	line-height: 90px;
@@ -823,8 +876,10 @@ footer p {
 	text-shadow: 2px 2px 2px #000;
 }
 #intro-caption span {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	font-size: 0.65em;
 }
 #banner.carousel .item {
@@ -837,8 +892,10 @@ footer p {
 08 Buttons ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */    
 .btn {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
 	color: #fff;
 	width: 185px;
 	height: 20px;
@@ -997,8 +1054,10 @@ footer p {
  text-align:center
 }
  #feature article p {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  line-height: 30px;
@@ -1006,7 +1065,7 @@ footer p {
  color: #fff;
 }
 }
-    
+
     /* Smartphones (portrait and landscape) ----------- */
 	@media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
  #feature-headline {
@@ -1042,8 +1101,10 @@ footer p {
  top: 0 !important;
 }
  #feature article p {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  font-weight: bold;
@@ -1124,8 +1185,10 @@ footer p {
  font-size: 1.1875em; /* 19px */
 }
  #feature article p {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+    /*font-family: 'Roboto Condensed';
+    src: url('../font/Roboto-Condensed.ttf') @ttf;*/
+		font-family: 'Source Code Pro', monospace;
+
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  line-height: 30px;
