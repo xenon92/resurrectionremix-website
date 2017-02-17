@@ -197,11 +197,11 @@ em {
 
 }
 .more-link:link, .more-link:visited {
-	color: #a10707;
+	color: #CF2C2C;
 	text-transform: uppercase;
 }
 .github-source-link:link, .github-source-link:visited {
-	color: #a10707;
+	color: #CF2C2C;
 }
 .features-link:link, .features-link:visited {
 	color: #ff0055;
@@ -257,7 +257,7 @@ em {
 }
 .navbar .brand a:hover {
 	text-decoration: none;
-	color:#a10707;
+	color:#CF2C2C;
  transition: color .15s linear;
  -webkit-transition: color .15s linear;
  -moz-transition: color .15s linear;
@@ -272,7 +272,7 @@ em {
 	background-repeat: repeat;
 	background-color: #090909;
 	/* 0b333f */
-	border-color: #a10707;
+	border-color: #CF2C2C;
 }
 .navbar-wrapper {
 	overflow:hidden;
@@ -381,7 +381,7 @@ ul#menu-main > li > a:hover {
 	margin: 0;
 	border: 0;
 	text-transform: none;
-	background: #a10707 !important;
+	background: #CF2C2C !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -536,7 +536,7 @@ section#features .align .sev_icon {
 	text-align:center;
 	margin:10px 0 20px 0;
 	font-size: 0.6em;
-	color:#a10707;
+	color:#CF2C2C;
 }
 section#features .span3 {
 	background:#e9e9e9;
@@ -557,7 +557,8 @@ section#features .span3:hover {
 
 section#testimonials {
 	height:  647px;
-	background: url("../img/yellow_testimonial.png") repeat-x 0 0;
+	/*background: url("../img/yellow_testimonial.png") repeat-x 0 0;*/
+	background-color: #CF2C2C;
 	padding: 0;
 	color: #fff;
 	z-index: 500;
@@ -743,7 +744,7 @@ section#credits h2.featurette-heading {
 	display: block;
 	border: 0;
 	text-transform: none;
-	background: #a10707 !important;
+	background: #CF2C2C !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -907,7 +908,7 @@ footer p {
 	display: block;
 	border: 0;
 	text-transform: none;
-	background: #a10707 !important;
+	background: #CF2C2C !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
