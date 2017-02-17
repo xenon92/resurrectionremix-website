@@ -900,12 +900,12 @@ footer p {
 		font-family: 'Source Code Pro', monospace;
 
 	color: #fff;
-	width: 185px;
+	width: 225px;
 	height: 20px;
 	text-shadow: none;
 	font-size: 1.3125em; /* 21px */
-	padding: 1em 0.5em;
-	letter-spacing: 0.05em;
+	padding: 1em 0.25em;
+	/*letter-spacing: 0.05em;*/
 	margin: 1.5em auto 1.5em;
 	display: block;
 	border: 0;
