@@ -33,11 +33,11 @@ CONTENTS:
 06 Footer
 07 Bootstrap Carousel
 08 Buttons
-09 Media queries 
+09 Media queries
 ===========================
 */
 
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 01 Sensible defaults ----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
@@ -53,13 +53,15 @@ div, article, section, header, footer, nav, li {
 }
 body {
 	background:#f0f0f0;
-	color: #434343;
+	color: #010101;
 	font-size: 100%;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
 ::-moz-selection {
-background:#434343;
+background:#010101;
 color:#333;
 }
 ::selection {
@@ -78,10 +80,12 @@ input[type=text], input[type=submit], textarea {
 	-webkit-box-sizing: border-box;
 }
 input, button, select, textarea {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 02 Typography -----------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 /*
@@ -118,8 +122,10 @@ a:hover, a:active {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal; /* reset default browser weight for our webfonts */
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
 h1 {
 	font-size: 1.5em; /* 24px */
@@ -153,8 +159,10 @@ h5 {
 }
 strong {
 	font-weight:normal;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
 small {
 	font-size: 0.75em; /* 12px */
@@ -164,13 +172,17 @@ small {
 }
 em {
 	font-style: normal;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
 .muted {
 	color: #A5A5A2;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
 .impressed {
 	text-shadow:
@@ -179,20 +191,22 @@ em {
 .more-link {
 	font-size: .875em; /* 14px */
 	margin-top: 1.5em;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
 .more-link:link, .more-link:visited {
-	color: #a10707;
+	color: #CF2C2C;
 	text-transform: uppercase;
 }
 .github-source-link:link, .github-source-link:visited {
-	color: #a10707;
+	color: #CF2C2C;
 }
 .features-link:link, .features-link:visited {
 	color: #ff0055;
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 03 Non-semantic ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 /* New Image Replacement Hack */
@@ -214,10 +228,12 @@ em {
 }
 .medium {
 	font-weight: normal;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 04 Navbar ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
@@ -236,12 +252,14 @@ em {
 	font-size: 1.35em;
 	margin-left: 0;
 	font-weight: normal;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
 .navbar .brand a:hover {
 	text-decoration: none;
-	color:#a10707;
+	color:#CF2C2C;
  transition: color .15s linear;
  -webkit-transition: color .15s linear;
  -moz-transition: color .15s linear;
@@ -254,9 +272,9 @@ em {
 }
 .navbar-inverse .navbar-inner {
 	background-repeat: repeat;
-	background-color: #090909;
+	background-color: #010101;
 	/* 0b333f */
-	border-color: #a10707;
+	border-color: #CF2C2C;
 }
 .navbar-wrapper {
 	overflow:hidden;
@@ -266,8 +284,10 @@ em {
 	margin-top: 1.125em;
 }
 ul#menu-main > li > a {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	font-size: 1em;
 	color: #fff;
 }
@@ -281,7 +301,7 @@ ul#menu-main > li > a:hover {
 .navbar-inverse .brand, .navbar-inverse .nav > li > a {
 	text-shadow: none;
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 05 Single-Page Sections ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 #headerwrap {
@@ -291,7 +311,7 @@ ul#menu-main > li > a:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+
 	min-height: 600px;
 	margin-top: -60px;
 	padding-top:160px;
@@ -299,16 +319,20 @@ ul#menu-main > li > a:hover {
 }
 #headerwrap h1 {
 	color: #FFFFFF;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	font-size: 5em;
 	font-weight: 400;
 	margin: 1em 0;
 }
 #headerwrap h2 {
 	color: #FFFFFF;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0.5em 0;
@@ -317,13 +341,17 @@ ul#menu-main > li > a:hover {
 #headerwrap h1 span {
 	color:#ffffff;
 	font-style: bold;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 }
 #headerwrap input[type=text] {
 	background: rgba(227, 231, 228, 1);
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	font-size: 1.3125em;
 	border: 0;
 	text-align: center;
@@ -342,8 +370,10 @@ ul#menu-main > li > a:hover {
 	width:50%;
 }
 #headerwrap input[type=submit] {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	color: #fff;
 	width: 185px;
 	height: 2.9em;
@@ -353,7 +383,7 @@ ul#menu-main > li > a:hover {
 	margin: 0;
 	border: 0;
 	text-transform: none;
-	background: #a10707 !important;
+	background: #CF2C2C !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -381,8 +411,10 @@ section.single-page {
 }
 section.single-page h1 {
 	text-align: center;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	margin-bottom: 2em; /* 72px */
 	font-size: 2.25em; /* 36px */
 }
@@ -400,8 +432,10 @@ section.single-page h1 {
 	max-width: 1170px;
 }
 #feature-headline {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
     font-weight: bold;
 	text-transform: uppercase;
 	color: rgba(228, 229, 229, 1);
@@ -411,13 +445,17 @@ section.single-page h1 {
 	background-size: 100% auto;
 }
 #feature-headline span {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	text-transform: lowercase;
 }
 #feature article p {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	font-size: 40px;
 	font-weight: bold;
 	margin-bottom: 0;
@@ -437,11 +475,11 @@ section#screenshots h1 {
 section#screenshots hgroup h2 {
 	margin-top: 1em;
 	text-transform: capitalize;
+	text-align: center;
 }
 section#screenshots hgroup h3 {
 	margin-top:  .35em;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+	font-family: 'Roboto Condensed', monospace;
 }
 section#screenshots .entry-content {
 	margin: 1em 0 5.5em;
@@ -498,7 +536,7 @@ section#features .align .sev_icon {
 	text-align:center;
 	margin:10px 0 20px 0;
 	font-size: 0.6em;
-	color:#a10707;
+	color:#CF2C2C;
 }
 section#features .span3 {
 	background:#e9e9e9;
@@ -512,14 +550,14 @@ section#features .span3 {
 }
 section#features .span3:hover {
 	color: #e9e9e9;
-	background:#090909;
+	background:#010101;
 	box-shadow: 1px 1px 6px #C1BAC1;
 }
 /* Testimonials */
 
 section#testimonials {
 	height:  647px;
-	background: url("../img/yellow_testimonial.png") repeat-x 0 0;
+	background-color: #CF2C2C;
 	padding: 0;
 	color: #fff;
 	z-index: 500;
@@ -538,9 +576,8 @@ blockquote.mega p {
 	font-size: 45px;
 	line-height: 50px;
 	text-align: left;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
-	color:#090909;
+	font-family: 'Roboto Condensed', monospace;
+	color:#FFFFFF;
 }
 blockquote.mega .cite {
 	font-size: 22px;
@@ -564,6 +601,11 @@ article.post {
 	margin-bottom: 40px;
 	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+article.post:hover{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 article .inside {
 	margin: 18px 24px 24px;
@@ -574,8 +616,10 @@ article .inside {
 .post-date {
 	color: #A5A5A2;
 	float: right;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	font-size: 14px;
 	font-style: normal;
 	line-height: 2;
@@ -590,14 +634,15 @@ article .inside {
 	font-size: 21px;
 	margin-top: 24px;
 	margin-bottom: 16px;
-	color: #090909;
+	color: #010101;
 	clear: right;
 }
+
 /* Team and Credits */
 
 section#team, section#credits {
 	color: #e4e5e2;
-	background:#090909;
+	background:#010101;
 }
 section#team .align, section#credits .align {
 	font-size: 6em;
@@ -643,8 +688,10 @@ section#team .align, section#credits .align {
 	text-align:center;
 }
 .job-position {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	margin-bottom: .46155em;
 }
 /* Credits Form */
@@ -663,8 +710,10 @@ section#credits h2.featurette-heading {
 }
 #theme-form input[type=text], .cform-form textarea {
 	background: rgba(227, 231, 228, 1);
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	border: 0;
 	text-align: left;
 	vertical-align: middle;
@@ -683,8 +732,10 @@ section#credits h2.featurette-heading {
 	height: 3.25em;
 }
 #theme-form input[type=submit] {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	color: #fff;
 	width: 185px;
 	height: 60px;
@@ -696,7 +747,7 @@ section#credits h2.featurette-heading {
 	display: block;
 	border: 0;
 	text-transform: none;
-	background: #a10707 !important;
+	background: #CF2C2C !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -726,8 +777,10 @@ div.cform-response-output {
 	width: 100% !important;
 	left: 0 !important;
 	padding: 0.5em !important;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -745,7 +798,7 @@ hr.featurette-divider {
 	height: 9px;
 	background: url("../img/dot-row-3-lt.png") repeat-x;
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 06 Footer ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
@@ -760,10 +813,10 @@ footer {
 footer p {
 	margin-top: -130px;
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 07 Bootstrap Carousel ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
-    
+
     .carousel-caption {
 	background-color: transparent;
 	position: static;
@@ -789,15 +842,17 @@ footer p {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 	background-color: transparent;
 	border: 0;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	opacity: 0.4;
 	border-radius: 0;
 }
 .carousel-control:link, .carousel-control:visited {
 	color: #262626;
 }
-/* Banner Carousel  */    
+/* Banner Carousel  */
     #banner.carousel {
 	margin-top: 4.75em;
 	margin-bottom: 0;
@@ -813,8 +868,10 @@ footer p {
 }
 #intro-caption {
 	margin-top:150px;
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	text-align: center;
 	font-size: 80px;
 	line-height: 90px;
@@ -823,8 +880,10 @@ footer p {
 	text-shadow: 2px 2px 2px #000;
 }
 #intro-caption span {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	font-size: 0.65em;
 }
 #banner.carousel .item {
@@ -833,24 +892,26 @@ footer p {
 }
 #banner.carousel .carousel-control {
 }
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 08 Buttons ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */    
+---------------------------------------------------------------------------------------------------------- */
 .btn {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
 	color: #fff;
-	width: 185px;
+	width: 225px;
 	height: 20px;
 	text-shadow: none;
 	font-size: 1.3125em; /* 21px */
-	padding: 1em 0.5em;
-	letter-spacing: 0.05em;
+	padding: 1em 0.25em;
+	/*letter-spacing: 0.05em;*/
 	margin: 1.5em auto 1.5em;
 	display: block;
 	border: 0;
 	text-transform: none;
-	background: #a10707 !important;
+	background: #CF2C2C !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -862,19 +923,19 @@ footer p {
 	color: #fff;
 }
 .btn:hover {
-	background: #090909 !important;
+	background: #010101 !important;
 }
 .navbar-inverse .btn-navbar {
 	width: auto;
 	height: auto;
 }
 
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 09 Media queries --------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
 
-/* RESPONSIVE 
+/* RESPONSIVE
 -------------------------------------------------- */
 
     @media (max-width: 1186px) {
@@ -886,8 +947,10 @@ footer p {
  color: #007ac3;
 }
  #intro-caption {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
  text-align: center;
  font-size: 60px;
  line-height: 70px;
@@ -967,7 +1030,7 @@ footer p {
  line-height: 1.5;
 }
 }
-    
+
     /* Smaller screens ----------- */
 	@media (max-width : 480px) {
  #headerwrap {
@@ -997,8 +1060,10 @@ footer p {
  text-align:center
 }
  #feature article p {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  line-height: 30px;
@@ -1006,7 +1071,7 @@ footer p {
  color: #fff;
 }
 }
-    
+
     /* Smartphones (portrait and landscape) ----------- */
 	@media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
  #feature-headline {
@@ -1023,14 +1088,14 @@ footer p {
  section.single-page {
  padding: 1em 0;
 }
-		
+
 		/* Feature */
 		#feature-badge {
 /*	display: none; */
 		}
-		
+
 /* Screenshots & Downloads */
-		
+
 #downloads h1 {
  background: transparent;
 }
@@ -1042,8 +1107,10 @@ footer p {
  top: 0 !important;
 }
  #feature article p {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  font-weight: bold;
@@ -1061,9 +1128,9 @@ footer p {
  section#screenshots hgroup h2 {
  margin-top: 1.5em;
 }
-	
+
 /* Features */
-		
+
 #features h1 {
  background: transparent;
 }
@@ -1077,15 +1144,15 @@ footer p {
  section#features h2, section#features ul {
  text-align: center;
 }
-		
+
 
 	    /* Testimonials */
-	    
+
 		section#testimonials { /*display: none;*/
 }
-	
+
 		/* team */
-		
+
 		#team .team-thumb {
  margin-right: auto;
  margin-left: auto;
@@ -1100,7 +1167,7 @@ footer p {
  margin-left: auto;
  margin-right: auto;
 }
-		
+
 /* Credits Section */
 
 #theme-form {
@@ -1117,15 +1184,17 @@ footer p {
  font-size: 32px; /* 34px */
 }
 }
-	
+
 	/* Smartphones (portrait) ----------- */
 	@media only screen  and (max-width : 320px) {
  #feature-headline {
  font-size: 1.1875em; /* 19px */
 }
  #feature article p {
-    font-family: 'Roboto Condensed';
-    src: url('../font/Roboto-Condensed.ttf') @ttf;
+
+
+		font-family: 'Roboto Condensed', monospace;
+
  font-size: 26px; /* font-size: 26px; */
  margin-bottom: 0;
  line-height: 30px;
@@ -1133,7 +1202,7 @@ footer p {
  color: #fff;
 }
 }
-	
+
 	/* iPads (portrait and landscape) ----------- */
 	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px) {
  .banner-caption p {
@@ -1143,17 +1212,17 @@ footer p {
  font-size: 4em;
 }
 }
-	
+
 	/* iPads (landscape) ----------- */
 	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : landscape) {
 /* Styles */
 	}
-	
+
 	/* iPads (portrait) ----------- */
 	@media only screen  and (min-device-width : 768px)  and (max-device-width : 1024px)  and (orientation : portrait) {
 /* Styles */
 	}
-	
+
 	/* Desktops and laptops ----------- */
 	@media only screen  and (min-width : 1224px) {
 /* Styles */
