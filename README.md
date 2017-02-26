@@ -1,4 +1,4 @@
-Website - Resurrection Remix ® ROM
+Website - Resurrection Remix OS
 ---
 
 
