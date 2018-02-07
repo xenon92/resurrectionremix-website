@@ -350,7 +350,7 @@ ul#menu-main>li>a:hover {
 
 #headerwrap {
     width: 100%;
-    background: url(../img/top-bg.jpg) #0b333f no-repeat center center fixed;
+    background: url(../img/top-bg.jpg) #000000 no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
