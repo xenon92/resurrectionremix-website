@@ -224,12 +224,12 @@ em {
 }
 
 .more-link:link, .more-link:visited {
-    color: #CF2C2C;
+    color: #e02437;
     text-transform: uppercase;
 }
 
 .github-source-link:link, .github-source-link:visited {
-    color: #CF2C2C;
+    color: #e02437;
 }
 
 .features-link:link, .features-link:visited {
@@ -295,7 +295,7 @@ em {
 
 .navbar .brand a:hover {
     text-decoration: none;
-    color: #CF2C2C;
+    color: #e02437;
     transition: color .15s linear;
     -webkit-transition: color .15s linear;
     -moz-transition: color .15s linear;
@@ -313,7 +313,7 @@ em {
     background-repeat: repeat;
     background-color: #010101;
     /* 0b333f */
-    border-color: #CF2C2C;
+    border-color: #000000;
 }
 
 .navbar-wrapper {
@@ -332,7 +332,7 @@ ul#menu-main>li>a {
 }
 
 ul#menu-main>li>a:hover {
-    background: a10707;
+    background: e02437;
     padding: 9px 15px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -419,7 +419,7 @@ ul#menu-main>li>a:hover {
     margin: 0;
     border: 0;
     text-transform: none;
-    background: #CF2C2C !important;
+    background: #e02437 !important;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -595,7 +595,7 @@ section#features .align .sev_icon {
     text-align: center;
     margin: 10px 0 20px 0;
     font-size: 0.6em;
-    color: #CF2C2C;
+    color: #e02437;
 }
 
 section#features .span3 {
@@ -620,7 +620,7 @@ section#features .span3:hover {
 
 section#testimonials {
     height: 647px;
-    background-color: #CF2C2C;
+    background-color: #e02437;
     padding: 0;
     color: #fff;
     z-index: 500;
@@ -832,7 +832,7 @@ section#credits h2.featurette-heading {
     display: block;
     border: 0;
     text-transform: none;
-    background: #CF2C2C !important;
+    background: #e02437 !important;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -1005,7 +1005,7 @@ footer p {
     display: block;
     border: 0;
     text-transform: none;
-    background: #CF2C2C !important;
+    background: #e02437 !important;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
