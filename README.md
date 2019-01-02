@@ -1,4 +1,4 @@
-Website - Resurrection Remix ® ROM
+Website - Resurrection Remix OS
 ---
 
 
@@ -7,13 +7,13 @@ The website can be accessed through the following URLs:
 > - http://xenon92.github.io/resurrectionremix-website/
 
 
-####Resources
+#### Resources
 > - [Bootstrap](https://github.com/twbs)
 > - [NProgress](https://github.com/rstacruz/nprogress)
 > - [Fontello](https://github.com/fontello/fontello)
 
 
-####License
+#### License
 
 Copyright (C) 2014 by Shubhang Rathore.
 
