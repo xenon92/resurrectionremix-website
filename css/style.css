@@ -630,6 +630,7 @@ section#testimonials {
 }
 
 section#testimonials .blockquote-wrapper {
+    background-color: #151515;
     display: table-cell;
     vertical-align: middle;
     height: 647px;
