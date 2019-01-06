@@ -332,7 +332,7 @@ ul#menu-main>li>a {
 }
 
 ul#menu-main>li>a:hover {
-    background: c82428;
+    background: #c82428;
     padding: 9px 15px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
