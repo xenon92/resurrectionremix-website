@@ -205,7 +205,7 @@ em {
 }
 
 .muted {
-    color: #A5A5A2;
+    color: #c82428;
     font-family: 'Roboto Condensed', monospace;
 }
 
@@ -662,10 +662,11 @@ section#downloads .align {
     font-size: 6em;
     margin-top: 10px;
     text-align: center;
+    color: #ffffff;
 }
 
 article.post {
-    background: #151515;;
+    background: #151515;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
@@ -706,7 +707,7 @@ article .inside {
     font-size: 21px;
     margin-top: 24px;
     margin-bottom: 16px;
-    color: #010101;
+    color: #ffffff;
     clear: right;
 }
 
@@ -714,7 +715,7 @@ article .inside {
 /* Team and Credits */
 
 section#team, section#credits {
-    color: #e4e5e2;
+    color: #ffffff;
     background: #010101;
 }
 
@@ -896,7 +897,7 @@ hr.featurette-divider {
 
 footer {
     text-align: center;
-    color: #1a1a1a;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -943,7 +944,7 @@ footer p {
 }
 
 .carousel-control:link, .carousel-control:visited {
-    color: #262626;
+    color: #ffffff;
 }
 
 
