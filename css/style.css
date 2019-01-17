@@ -69,7 +69,7 @@ body {
 }
 
 ::selection {
-    background: #f0bf00;
+    background: #F1505A;
     color: #333;
 }
 
@@ -311,9 +311,10 @@ em {
 
 .navbar-inverse .navbar-inner {
     background-repeat: repeat;
-    background-color: #010101;
+    opacity: 0.9;
+    background-color: #000000;
     /* 0b333f */
-    border-color: #000000;
+    border-color: transparent;
 }
 
 .navbar-wrapper {
@@ -332,9 +333,9 @@ ul#menu-main>li>a {
 }
 
 ul#menu-main>li>a:hover {
-    background: #c82428;
+    background: #212121;
     padding: 9px 15px;
-    border-radius: 3px;
+    border-radius: 28px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
 }
@@ -426,7 +427,7 @@ ul#menu-main>li>a:hover {
 }
 
 #headerwrap input[type=submit]:hover, #headerwrap input[type=submit]:active {
-    background: #43413e !important;
+    background: #212121 !important;
 }
 
 
@@ -611,7 +612,7 @@ section#features .span3 {
 
 section#features .span3:hover {
     color: #ffffff;
-    background: #010101;
+    background: #212121;
     box-shadow: 1px 1px 6px #000000;
 }
 
@@ -844,7 +845,7 @@ section#credits h2.featurette-heading {
 }
 
 #theme-form input[type=submit]:hover, #theme-form input[type=submit]:active {
-    background: #43413e !important;
+    background: #212121 !important;
 }
 
 #theme-form textarea {
@@ -899,6 +900,7 @@ hr.featurette-divider {
 footer {
     text-align: center;
     color: #ffffff;
+    letter-spacing: 1px;
     font-weight: bold;
 }
 
@@ -941,7 +943,7 @@ footer p {
     border: 0;
     font-family: 'Roboto Condensed', monospace;
     opacity: 0.4;
-    border-radius: 0;
+    border-radius: 24;
 }
 
 .carousel-control:link, .carousel-control:visited {
@@ -999,6 +1001,7 @@ footer p {
     width: 225px;
     height: 20px;
     text-shadow: none;
+    letter-spacing: 3px;
     font-size: 1.3125em;
     /* 21px */
     padding: 1em 0.25em;
@@ -1007,21 +1010,22 @@ footer p {
     display: block;
     border: 0;
     text-transform: none;
-    background: #c82428 !important;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+    background: #151515 !important;
+    border-radius: 36px;
+    -moz-border-radius: 36px;
+    -webkit-border-radius: 36px;
     box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
 }
 
 .btn:link, .btn:visited {
-    color: #fff;
+    color: #c82428;
+    font-style: bold;
 }
 
 .btn:hover {
-    background: #010101 !important;
+    background: #212121 !important;
 }
 
 .navbar-inverse .btn-navbar {

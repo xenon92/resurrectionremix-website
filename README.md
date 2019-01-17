@@ -1,11 +1,11 @@
 Website - Resurrection Remix OS
 ---
 
+This repository holds the source code
 
-The website can be accessed through the following URLs:
-> - http://www.resurrectionremix.com
-> - http://xenon92.github.io/resurrectionremix-website/
+The site is actually hosted on an external server, and can be viewed [here](https://resurrectionremix.com)
 
+It is updated everytime a new commit is pushed here
 
 #### Resources
 > - [Bootstrap](https://github.com/twbs)
