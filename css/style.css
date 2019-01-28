@@ -1274,7 +1274,7 @@ footer p {
 
 /* Smartphones (landscape) ----------- */
 
-@media only screen and (min-width: 321px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     #feature-headline {
         font-size: 32px;
         /* 34px */
@@ -1284,7 +1284,7 @@ footer p {
 
 /* Smartphones (portrait) ----------- */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     #feature-headline {
         font-size: 1.1875em;
         /* 19px */
