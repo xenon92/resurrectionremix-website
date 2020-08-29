@@ -126,11 +126,11 @@ ul, ol {
 body, input, textarea {}
 
 a:link, a:visited {
-    color: #F1505A;
+    color: #75a8ff;
 }
 
 a:hover, a:active {
-    color: #F1505A;
+    color: #75a8ff;
     text-decoration: underline;
 }
 
@@ -205,7 +205,7 @@ em {
 }
 
 .muted {
-    color: #c82428;
+    color: #75a8ff;
     font-family: 'Roboto Condensed', monospace;
 }
 
@@ -224,16 +224,16 @@ em {
 }
 
 .more-link:link, .more-link:visited {
-    color: #c82428;
+    color: #75a8ff;
     text-transform: uppercase;
 }
 
 .github-source-link:link, .github-source-link:visited {
-    color: #c82428;
+    color: #75a8ff;
 }
 
 .features-link:link, .features-link:visited {
-    color: #C82428;
+    color: #75a8ff;
 }
 
 
@@ -295,7 +295,7 @@ em {
 
 .navbar .brand a:hover {
     text-decoration: none;
-    color: #c82428;
+    color: #75a8ff;
     transition: color .15s linear;
     -webkit-transition: color .15s linear;
     -moz-transition: color .15s linear;
@@ -424,7 +424,7 @@ ul#menu-main>li>a:hover {
     margin: 0;
     border: 0;
     text-transform: none;
-    background: #c82428 !important;
+    background: #75a8ff !important;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -600,7 +600,7 @@ section#features .align .sev_icon {
     text-align: center;
     margin: 10px 0 20px 0;
     font-size: 0.6em;
-    color: #c82428;
+    color: #75a8ff;
 }
 
 section#features .span3 {
@@ -834,7 +834,7 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 37px;
-        color: #C82428;
+        color: #75a8ff;
         font-weight: bold;
         letter-spacing: -1px;
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
@@ -849,7 +849,7 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 26px;
-        color: #C82428;
+        color: #75a8ff;
         font-weight: bold;
         letter-spacing: -1px;
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
@@ -865,7 +865,7 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 81px;
-        color: #C82428;
+        color: #75a8ff;
         font-weight: bold;
         letter-spacing: -2px;
         background: -webkit-linear-gradient( #eee, #333);
@@ -880,7 +880,7 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 57px;
-        color: #C82428;
+        color: #75a8ff;
         font-weight: bold;
         letter-spacing: -2px;
         background: -webkit-linear-gradient( #eee, #333);
@@ -907,7 +907,7 @@ section#credits h2.featurette-heading {
     display: block;
     border: 0;
     text-transform: none;
-    background: #c82428 !important;
+    background: #75a8ff !important;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -1092,7 +1092,7 @@ footer p {
 }
 
 .btn:link, .btn:visited {
-    color: #c82428;
+    color: #75a8ff;
     font-style: bold;
 }
 
