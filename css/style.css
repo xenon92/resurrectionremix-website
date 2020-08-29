@@ -311,8 +311,12 @@ em {
 
 .navbar-inverse .navbar-inner {
     background-repeat: repeat;
-    opacity: 0.9;
-    background-color: #000000;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    -moz-backdrop-filter: saturate(180%) blur(20px);
+    -ms-backdrop-filter: saturate(180%) blur(20px);
+    -o-backdrop-filter: saturate(180%) blur(20px);
     /* 0b333f */
     border-color: transparent;
 }
