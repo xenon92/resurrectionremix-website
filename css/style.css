@@ -827,9 +827,10 @@ section#credits h2.featurette-heading {
     color: white;
 }
 /* RR sub header text */
-@media screen and (min-width: 601px) {
+@media (min-width: 601px) {
     .rr-subheader {
-        padding: 10px;
+        padding: 0px;
+        display: inline-block;
         text-align: center;
         background: #1abc9c;
         color: white;
@@ -839,12 +840,16 @@ section#credits h2.featurette-heading {
         letter-spacing: -1px;
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
         -webkit-background-clip: text;
+        -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+
     }
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .rr-subheader {
-        padding: 5px;
+        padding: 0px;
+        display: inline-block;
         text-align: center;
         background: #1abc9c;
         color: white;
@@ -854,40 +859,52 @@ section#credits h2.featurette-heading {
         letter-spacing: -1px;
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
         -webkit-background-clip: text;
+        -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+
     }
 }
 /* RR header text */
-@media screen and (min-width: 601px) {
+@media (min-width: 601px) {
     .rr-header {
-        padding: 60px;
+        padding: 90px;
+        display: inline-block;
         text-align: center;
         background: #1abc9c;
         color: white;
         font-size: 81px;
-        color: #75a8ff;
         font-weight: bold;
         letter-spacing: -2px;
         background: -webkit-linear-gradient( #eee, #333);
         -webkit-background-clip: text;
+        -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
     }
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .rr-header {
-        padding: 20px;
+        padding: 0px;
+        display: inline-block;
         text-align: center;
         background: #1abc9c;
         color: white;
         font-size: 57px;
-        color: #75a8ff;
         font-weight: bold;
         letter-spacing: -2px;
         background: -webkit-linear-gradient( #eee, #333);
         -webkit-background-clip: text;
+        -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
     }
 }
+
+
+
+
+
 
 #theme-form input[type=text] {
     height: 3.25em;
