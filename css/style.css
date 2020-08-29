@@ -233,7 +233,7 @@ em {
 }
 
 .features-link:link, .features-link:visited {
-    color: #ff0055;
+    color: #C82428;
 }
 
 
@@ -819,6 +819,74 @@ section#credits h2.featurette-heading {
     transition: background 0.25 ease-in;
     -moz-transition: background 0.25 ease-in;
     -webkit-transition: background 0.25 ease-in;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* RR sub header text */
+@media screen and (min-width: 601px) {
+    .rr-subheader {
+        padding: 10px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 37px;
+        color: #C82428;
+        font-weight: bold;
+        letter-spacing: -1px;
+        background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+@media screen and (max-width: 600px) {
+    .rr-subheader {
+        padding: 5px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 26px;
+        color: #C82428;
+        font-weight: bold;
+        letter-spacing: -1px;
+        background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+/* RR header text */
+@media screen and (min-width: 601px) {
+    .rr-header {
+        padding: 60px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 81px;
+        color: #C82428;
+        font-weight: bold;
+        letter-spacing: -2px;
+        background: -webkit-linear-gradient( #eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+@media screen and (max-width: 600px) {
+    .rr-header {
+        padding: 20px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 57px;
+        color: #C82428;
+        font-weight: bold;
+        letter-spacing: -2px;
+        background: -webkit-linear-gradient( #eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 #theme-form input[type=text] {
