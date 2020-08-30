@@ -60,7 +60,7 @@ body {
     background: #000000;
     color: #ffffff;
     font-size: 100%;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 
 ::-moz-selection {
@@ -87,8 +87,9 @@ input[type=text], input[type=submit], textarea {
 }
 
 input, button, select, textarea {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
+@import url(//db.onlinewebfonts.com/c/000be6a5acfcd4e4a425e9f1bb6c80f0?family=Google+Sans);
 
 
 /* ----------------------------------------------------------------------------------------------------------
@@ -137,7 +138,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     /* reset default browser weight for our webfonts */
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 
 h1 {
@@ -187,7 +188,7 @@ h5 {
 
 strong {
     font-weight: normal;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 
 small {
@@ -201,12 +202,12 @@ small {
 
 em {
     font-style: normal;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 
 .muted {
     color: #75a8ff;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 .thanx {
     padding: 0px;
@@ -222,7 +223,7 @@ em {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 .impressed {
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5),
@@ -235,7 +236,7 @@ em {
     font-size: .875em;
     /* 14px */
     margin-top: 1.5em;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 
 .more-link:link, .more-link:visited {
@@ -280,7 +281,7 @@ em {
 
 .medium {
     font-weight: normal;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 
 
@@ -296,16 +297,16 @@ em {
 .navbar .brand {
     margin-left: 0;
     padding: 0;
-    margin-top: 1.05em;
+    margin-top: 1.5em;
 }
 
 .navbar .brand a {
     padding: 0;
     color: #ffffff;
-    font-size: 1.35em;
+    font-size: 0.9em;
     margin-left: 0;
     font-weight: normal;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 
 .navbar .brand a:hover {
@@ -346,7 +347,7 @@ em {
 }
 
 ul#menu-main>li>a {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     font-size: 1em;
     color: #fff;
 }
@@ -383,7 +384,7 @@ ul#menu-main>li>a:hover {
 
 #headerwrap h1 {
     color: #FFFFFF;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     font-size: 5em;
     font-weight: 400;
     margin: 1em 0;
@@ -391,7 +392,7 @@ ul#menu-main>li>a:hover {
 
 #headerwrap h2 {
     color: #FFFFFF;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     font-size: 2em;
     font-weight: normal;
     margin: 0.5em 0;
@@ -401,12 +402,12 @@ ul#menu-main>li>a:hover {
 #headerwrap h1 span {
     color: #ffffff;
     font-style: bold;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 
 #headerwrap input[type=text] {
     background: rgba(227, 231, 228, 1);
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     font-size: 1.3125em;
     border: 0;
     text-align: center;
@@ -428,7 +429,7 @@ ul#menu-main>li>a:hover {
 }
 
 #headerwrap input[type=submit] {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     color: #fff;
     width: 185px;
     height: 2.9em;
@@ -476,7 +477,7 @@ section.single-page {
 
 section.single-page h1 {
     text-align: center;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     margin-bottom: 2em;
     /* 72px */
     font-size: 2.25em;
@@ -499,7 +500,7 @@ section.single-page h1 {
 }
 
 #feature-headline {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     color: rgba(228, 229, 229, 1);
@@ -511,12 +512,12 @@ section.single-page h1 {
 }
 
 #feature-headline span {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     text-transform: lowercase;
 }
 
 #feature article p {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0;
@@ -545,7 +546,7 @@ section#screenshots hgroup h2 {
 
 section#screenshots hgroup h3 {
     margin-top: .35em;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
 }
 
 section#screenshots .entry-content {
@@ -622,6 +623,9 @@ section#features .span3 {
     background: #151515;
     padding: 20px 0;
     margin-bottom: 30px;
+    min-width: 30%;
+    max-height: 100%;
+
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -662,7 +666,7 @@ blockquote.mega p {
     font-size: 45px;
     line-height: 50px;
     text-align: left;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     color: #ffffff;
 }
 
@@ -711,7 +715,7 @@ article .inside {
 .post-date {
     color: #C82328;
     float: right;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     font-size: 14px;
     font-style: normal;
     line-height: 2;
@@ -796,7 +800,7 @@ section#team .align, section#credits .align {
 }
 
 .job-position {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     margin-bottom: .46155em;
 }
 
@@ -819,7 +823,7 @@ section#credits h2.featurette-heading {
 
 #theme-form input[type=text], .cform-form textarea {
     background: rgba(227, 231, 228, 1);
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     border: 0;
     text-align: left;
     vertical-align: middle;
@@ -863,12 +867,12 @@ section#credits h2.featurette-heading {
 }
 @media (max-width: 600px) {
     .rr-subheader {
-        padding: 0px;
+        padding: 10px;
         display: inline-block;
         text-align: center;
         background: #1abc9c;
         color: white;
-        font-size: 26px;
+        font-size: 29px;
         color: #75a8ff;
         font-weight: bold;
         letter-spacing: -1px;
@@ -888,10 +892,10 @@ section#credits h2.featurette-heading {
         text-align: center;
         background: #1abc9c;
         color: white;
-        font-size: 81px;
+        font-size: 71px;
         font-weight: bold;
         letter-spacing: -2px;
-        background: -webkit-linear-gradient( #eee, #333);
+        background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -900,15 +904,15 @@ section#credits h2.featurette-heading {
 }
 @media (max-width: 600px) {
     .rr-header {
-        padding: 0px;
+        padding: 8px;
         display: inline-block;
         text-align: center;
         background: #1abc9c;
         color: white;
-        font-size: 57px;
+        font-size: 42px;
         font-weight: bold;
         letter-spacing: -2px;
-        background: -webkit-linear-gradient( #eee, #333);
+        background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -916,8 +920,7 @@ section#credits h2.featurette-heading {
     }
 }
 
-
-
+@font-face {font-family: "Google Sans"; src: url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.eot"); src: url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.woff") format("woff"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.svg#Google Sans") format("svg"); }
 
 
 
@@ -926,7 +929,7 @@ section#credits h2.featurette-heading {
 }
 
 #theme-form input[type=submit] {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     color: #fff;
     width: 185px;
     height: 60px;
@@ -973,7 +976,7 @@ div.cform-response-output {
     width: 100% !important;
     left: 0 !important;
     padding: 0.5em !important;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1045,7 +1048,7 @@ footer p {
     text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
     background-color: transparent;
     border: 0;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     opacity: 0.4;
     border-radius: 24;
 }
@@ -1074,7 +1077,7 @@ footer p {
 
 #intro-caption {
     margin-top: 150px;
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     text-align: center;
     font-size: 80px;
     line-height: 90px;
@@ -1084,7 +1087,7 @@ footer p {
 }
 
 #intro-caption span {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     font-size: 0.65em;
 }
 
@@ -1100,7 +1103,7 @@ footer p {
 ---------------------------------------------------------------------------------------------------------- */
 
 .btn {
-    font-family: 'Roboto Condensed', monospace;
+    font-family: 'Google Sans', sans-serif;
     color: #fff;
     width: 225px;
     height: 20px;
@@ -1155,7 +1158,7 @@ footer p {
         color: #007ac3;
     }
     #intro-caption {
-        font-family: 'Roboto Condensed', monospace;
+        font-family: 'Google Sans', sans-serif;
         text-align: center;
         font-size: 60px;
         line-height: 70px;
@@ -1269,7 +1272,7 @@ footer p {
         text-align: center
     }
     #feature article p {
-        font-family: 'Roboto Condensed', monospace;
+        font-family: 'Google Sans', sans-serif;
         font-size: 26px;
         /* font-size: 26px; */
         margin-bottom: 0;
@@ -1314,7 +1317,7 @@ footer p {
         top: 0 !important;
     }
     #feature article p {
-        font-family: 'Roboto Condensed', monospace;
+        font-family: 'Google Sans', sans-serif;
         font-size: 26px;
         /* font-size: 26px; */
         margin-bottom: 0;
@@ -1394,7 +1397,7 @@ footer p {
         /* 19px */
     }
     #feature article p {
-        font-family: 'Roboto Condensed', monospace;
+        font-family: 'Google Sans', sans-serif;
         font-size: 26px;
         /* font-size: 26px; */
         margin-bottom: 0;
