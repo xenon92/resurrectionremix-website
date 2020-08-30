@@ -114,6 +114,9 @@ p {
     line-height: 1.5;
     /* 24px */
     margin: 0 0 1.5em 0;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
 
 ul, ol {
@@ -210,7 +213,6 @@ em {
     font-family: 'Google Sans', sans-serif;
 }
 .thanx {
-    padding: 0px;
     display: inline-block;
     text-align: center;
     background: #1abc9c;
@@ -218,6 +220,8 @@ em {
     font-size: 37px;
     font-weight: bold;
     letter-spacing: -1px;
+    padding-right: 15px;
+    padding-left: 15px;
     background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -288,17 +292,24 @@ em {
 /* ----------------------------------------------------------------------------------------------------------
 04 Navbar ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
-
-.navbar-fixed-top .container {
-    /* Uncomment to make nav expand full width */
-    /*	width: auto; */
-    background: rgba(0,0,0,0.4);
-    min-height: 81px;
+.navbar-inverse .navbar-inner {
+    background-repeat: repeat;
+    background: rgba(0,0,0,0.6);
+    background-size: 100% auto;
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     -moz-backdrop-filter: saturate(180%) blur(20px);
     -ms-backdrop-filter: saturate(180%) blur(20px);
     -o-backdrop-filter: saturate(180%) blur(20px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* 0b333f */
+    border-color: transparent;
+}
+.navbar-fixed-top .container {
+    /* Uncomment to make nav expand full width */
+    /*	width: auto; */
+    min-height: 81px;
+
 
 }
 
@@ -333,19 +344,6 @@ em {
     min-height: 4.75em;
 }
 
-.navbar-inverse .navbar-inner {
-    background-repeat: repeat;
-    background: rgba(0,0,0,0.1);
-    backdrop-filter: saturate(180%) blur(20px);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    -moz-backdrop-filter: saturate(180%) blur(20px);
-    -ms-backdrop-filter: saturate(180%) blur(20px);
-    -o-backdrop-filter: saturate(180%) blur(20px);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* 0b333f */
-    border-color: transparent;
-}
-
 .navbar-wrapper {
     overflow: hidden;
     /* No fixed height, will break collapsible nav */
@@ -378,17 +376,41 @@ ul#menu-main>li>a:hover {
 05 Single-Page Sections ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
-#headerwrap {
-    width: 100%;
-    background: url(../img/top-bg.jpg) #000000 no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+.headerwrap {
+    background-size: 600% 600%;
+    text-align: center;
     min-height: 600px;
     margin-top: -60px;
     padding-top: 160px;
-    text-align: center;
+    background: linear-gradient(270deg, #093207, #0b2f4d, #290e3f, #5b105f, #105f55);
+    background-size: 1000% 1000%;
+    
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 #headerwrap h1 {
@@ -463,11 +485,14 @@ ul#menu-main>li>a:hover {
 /*========== Social Icons ==========*/
 
 ul.icon {
+    text-align: center;
+
     font-size: 54px;
     margin: 1em 0 0.5em 0;
 }
 
 ul.icon li {
+    text-align: center;
     display: inline-block;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
@@ -539,6 +564,7 @@ section.single-page h1 {
 
 section#screenshots {
     padding-bottom: 0;
+     background: #151515 !important;
 }
 
 section#screenshots h1 {
@@ -596,6 +622,8 @@ section#screenshots .align {
 
 section#features {
     padding-bottom: 9.5em;
+    background: #151515 !important;
+
 }
 
 #features h1 {
@@ -629,7 +657,7 @@ section#features .align .sev_icon {
 }
 
 section#features .span3 {
-    background: #151515;
+    background: #1c1c1c;
     padding: 20px 0;
     margin-bottom: 30px;
     min-width: 30%;
@@ -855,9 +883,8 @@ section#credits h2.featurette-heading {
     color: white;
 }
 /* RR sub header text */
-@media (min-width: 601px) {
+@media (min-width: 1001px) {
     .rr-subheader {
-        padding: 0px;
         display: inline-block;
         text-align: center;
         background: #1abc9c;
@@ -865,7 +892,10 @@ section#credits h2.featurette-heading {
         font-size: 37px;
         color: #75a8ff;
         font-weight: bold;
-        letter-spacing: -1px;
+        padding-right: 10px;
+        padding-left: 10px;
+        letter-spacing: -2px;
+        text-shadow: 0 0 18px #eee);
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -874,7 +904,7 @@ section#credits h2.featurette-heading {
 
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .rr-subheader {
         padding: 10px;
         display: inline-block;
@@ -882,9 +912,12 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 29px;
+        padding-right: 12px;
+        padding-left: 12px;
         color: #75a8ff;
         font-weight: bold;
-        letter-spacing: -1px;
+        letter-spacing: -2px;
+        text-shadow: 0 0 18px #eee);
         background: -webkit-linear-gradient(45deg, #1abc9c, #8353EC);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -894,7 +927,7 @@ section#credits h2.featurette-heading {
     }
 }
 /* RR header text */
-@media (min-width: 601px) {
+@media (min-width: 1001px) {
     .rr-header {
         padding: 90px;
         display: inline-block;
@@ -902,18 +935,22 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 71px;
+        padding-top: 200px;
         font-weight: bold;
         letter-spacing: -2px;
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
+        text-shadow: 0 0 18px #eee);
+
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .rr-header {
         padding: 8px;
+        padding-top: 30px;
         display: inline-block;
         text-align: center;
         background: #1abc9c;
@@ -921,6 +958,7 @@ section#credits h2.featurette-heading {
         font-size: 42px;
         font-weight: bold;
         letter-spacing: -2px;
+        text-shadow: 0 0 18px #eee);
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -1009,19 +1047,26 @@ hr.featurette-divider {
 06 Footer ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
-#map-wrapper {
-    margin-top: 20px;
+#footer-wrapper {
+    margin-top: 0px;
+    background-color: #000;
+
 }
 
 footer {
     text-align: center;
-    color: #ffffff;
+    color: #d9d9d9;
     letter-spacing: 1px;
     font-weight: bold;
+    width: 100%;
+    background-color: #000;
+
 }
 
 footer p {
-    margin-top: -130px;
+    margin-top: 0px;
+    background-color: #000;
+
 }
 
 
@@ -1156,6 +1201,11 @@ footer p {
 .navbar-inverse .btn-navbar {
     width: auto;
     height: auto;
+    background: black;
+    border-radius: 2px;
+    border-color: rgba(255,255,255,1);
+    box-shadow: 0 0 1px #333;
+
 }
 
 
@@ -1213,13 +1263,11 @@ footer p {
         margin: 0 auto 20px;
     }
 }
-
 @media (min-width: 768px) and (max-width: 979px) {
     #headerwrap {
         padding-top: 0;
     }
 }
-
 @media (max-width: 767px) {
     .container {
         padding-right: 5px;
