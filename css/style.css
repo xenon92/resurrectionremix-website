@@ -57,7 +57,8 @@ div, article, section, header, footer, nav, li {
 }
 
 body {
-    background: #000000;
+    background:rgba(0,0,0,0.3);
+    background-color:black;
     color: #ffffff;
     font-size: 100%;
     font-family: 'Google Sans', sans-serif;
@@ -360,7 +361,7 @@ ul#menu-main>li>a {
 }
 
 ul#menu-main>li>a:hover {
-    background: #212121;
+    background: #1c1c1c;
     padding: 9px 15px;
     border-radius: 28px;
     -webkit-border-radius: 3px;
@@ -437,7 +438,7 @@ ul#menu-main>li>a:hover {
 }
 
 #headerwrap input[type=text] {
-    background: rgba(227, 231, 228, 1);
+    background: rgba(227,231,228.1);
     font-family: 'Google Sans', sans-serif;
     font-size: 1.3125em;
     border: 0;
@@ -471,14 +472,14 @@ ul#menu-main>li>a:hover {
     margin: 0;
     border: 0;
     text-transform: none;
-    background: #75a8ff !important;
+    background:rgba(0,0,0,0.3);
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
 }
 
 #headerwrap input[type=submit]:hover, #headerwrap input[type=submit]:active {
-    background: #212121 !important;
+    background:rgba(0,0,0,0.6);
 }
 
 
@@ -519,12 +520,10 @@ section.single-page h1 {
 }
 
 #feature {
-    background: url("../img/yellow.png") repeat-x 0 0;
+    background:rgba(0,0,0,0.3);
     height: 406px;
     z-index: 500;
-    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+
 }
 
 #feature article {
@@ -564,7 +563,7 @@ section.single-page h1 {
 
 section#screenshots {
     padding-bottom: 0;
-     background: #151515 !important;
+     background:rgba(0,0,0,0.3);
 }
 
 section#screenshots h1 {
@@ -622,7 +621,7 @@ section#screenshots .align {
 
 section#features {
     padding-bottom: 9.5em;
-    background: #151515 !important;
+    background:rgba(0,0,0,0.3);
 
 }
 
@@ -657,12 +656,12 @@ section#features .align .sev_icon {
 }
 
 section#features .span3 {
-    background: #1c1c1c;
+    background:rgba(0,0,0,0.2);
     padding: 20px 0;
     margin-bottom: 30px;
     min-width: 30%;
     max-height: 100%;
-
+    border-radius: 16px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -672,8 +671,8 @@ section#features .span3 {
 
 section#features .span3:hover {
     color: #ffffff;
-    background: #212121;
-    box-shadow: 1px 1px 6px #000000;
+    border-radius: 16px;
+    background:rgba(0,0,0,0.2);
 }
 
 
@@ -681,7 +680,7 @@ section#features .span3:hover {
 
 section#testimonials {
     height: 647px;
-    background-color: #151515;
+    background:rgba(0,0,0,0.5);
     padding: 0;
     color: #000;
     z-index: 500;
@@ -691,7 +690,7 @@ section#testimonials {
 }
 
 section#testimonials .blockquote-wrapper {
-    background-color: #151515;
+    background:rgba(0,0,0,0.0);
     display: table-cell;
     vertical-align: middle;
     height: 647px;
@@ -717,7 +716,7 @@ blockquote.mega .cite {
 /* Downloads */
 
 section#downloads {
-    background: url("../img/grey-cardboard-bg.png") repeat 0 0;
+    background:rgba(0,0,0,0.3);
 }
 
 section#downloads .align {
@@ -728,9 +727,9 @@ section#downloads .align {
 }
 
 article.post {
-    background: #151515;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    background:rgba(0,0,0,0.3);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
     -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
@@ -778,7 +777,7 @@ article .inside {
 
 section#team, section#credits {
     color: #ffffff;
-    background: #010101;
+    background:rgba(0,0,0,0.3);
 }
 
 section#team .align, section#credits .align {
@@ -1049,7 +1048,7 @@ hr.featurette-divider {
 
 #footer-wrapper {
     margin-top: 0px;
-    background-color: #000;
+    background:rgba(0,0,0,0.3);
 
 }
 
@@ -1059,13 +1058,13 @@ footer {
     letter-spacing: 1px;
     font-weight: bold;
     width: 100%;
-    background-color: #000;
+    background:rgba(0,0,0,0.3);
 
 }
 
 footer p {
     margin-top: 0px;
-    background-color: #000;
+    background:rgba(0,0,0,0.3);
 
 }
 
