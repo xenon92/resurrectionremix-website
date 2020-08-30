@@ -293,12 +293,14 @@ em {
     /* Uncomment to make nav expand full width */
     /*	width: auto; */
     background: rgba(0,0,0,0.4);
-    min-height: 80px;
+    min-height: 81px;
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     -moz-backdrop-filter: saturate(180%) blur(20px);
     -ms-backdrop-filter: saturate(180%) blur(20px);
     -o-backdrop-filter: saturate(180%) blur(20px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .navbar .brand {
