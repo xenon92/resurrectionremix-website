@@ -299,7 +299,6 @@ em {
     -moz-backdrop-filter: saturate(180%) blur(20px);
     -ms-backdrop-filter: saturate(180%) blur(20px);
     -o-backdrop-filter: saturate(180%) blur(20px);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -342,6 +341,7 @@ em {
     -moz-backdrop-filter: saturate(180%) blur(20px);
     -ms-backdrop-filter: saturate(180%) blur(20px);
     -o-backdrop-filter: saturate(180%) blur(20px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* 0b333f */
     border-color: transparent;
 }
