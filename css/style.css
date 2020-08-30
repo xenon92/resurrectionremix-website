@@ -1132,8 +1132,8 @@ footer p {
     -webkit-border-radius: 36px;
     box-shadow: none;
     -moz-box-shadow: none;
-    box-shadow: 0 0 10px #eee;
-    background: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    box-shadow: 0 0 8px #eee;
+    background: linear-gradient(to right, #1abc9c, #8353EC);
 
 }
 
@@ -1148,7 +1148,7 @@ footer p {
     background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
     border-color: rgba(255,255,255,1);
     color: #fff;
-    box-shadow: 0 0 15px #eee;
+    box-shadow: 0 0 10px #eee;
     background-position: right center; /* change the direction of the change here */
 
 }
