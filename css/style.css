@@ -1132,7 +1132,7 @@ footer p {
     -webkit-border-radius: 36px;
     box-shadow: none;
     -moz-box-shadow: none;
-    box-shadow: 0 0 8px #eee;
+    box-shadow: 0 0 1px #eee;
     background: linear-gradient(to right, #1abc9c, #8353EC);
 
 }
