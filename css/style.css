@@ -383,8 +383,8 @@ ul#menu-main>li>a:hover {
     min-height: 600px;
     margin-top: -60px;
     padding-top: 160px;
-    background: linear-gradient(270deg, #093207, #0b2f4d, #290e3f, #5b105f, #105f55);
-    background-size: 1000% 1000%;
+    background: linear-gradient(270deg, #290e3f, #5b105f, #0f6e5b, #47209d);
+    background-size: 800% 800%;
     
     -webkit-animation: AnimationName 15s ease infinite;
     -moz-animation: AnimationName 15s ease infinite;
@@ -935,7 +935,7 @@ section#credits h2.featurette-heading {
         background: #1abc9c;
         color: white;
         font-size: 71px;
-        padding-top: 200px;
+        padding-top: 100px;
         font-weight: bold;
         letter-spacing: -2px;
         background: -webkit-linear-gradient(#b0b3b8, #ffffff);
