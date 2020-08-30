@@ -929,12 +929,12 @@ section#credits h2.featurette-heading {
 /* RR header text */
 @media (min-width: 1001px) {
     .rr-header {
-        padding: 90px;
+        padding: 0px;
         display: inline-block;
         text-align: center;
         background: #1abc9c;
         color: white;
-        font-size: 71px;
+        font-size: 89px;
         padding-top: 100px;
         font-weight: bold;
         letter-spacing: -2px;
